@@ -46,30 +46,29 @@ class Contact extends Component {
                     <div className="wrapper animated fadeInLeft">
                         <div className="company-info">
                             <h3>Contact</h3>
-                            {/* <ul className="ulForm">
-                                <li><i className="fa fa-phone"></i> (209) 598-4517</li>
-                                <li><i className="fa fa-envelope"></i> saronnhong@gmail.com</li>
-                                <li><a className="contactLinks" href="https://www.linkedin.com/in/saronnhong"><div><i class="fab fa-linkedin"></i> linkedin.com/in/saronnhong</div></a></li>
-                                <li><a className="contactLinks" href="https://github.com/saronnhong"><div><i class="fab fa-github"></i> github.com/saronnhong</div></a></li>
-                            </ul> */}
+                            <ul className="ulForm">
+                                <li><i className="fa fa-envelope"></i> milanowski@radhard.com</li>
+                                
+                                
+                            </ul>
                         </div>
                         <div className="contact">
                             <h3>Email</h3>
                             <p id="confirmMessage">{email.confirmMsg}</p>
                             <form>
-                                <p>
-                                    <input placeholder="Name" value={email.subject}
+                                <p >
+                                    <input className="input-field" placeholder="Name" value={email.subject}
                                         onChange={e => this.setState({ email: { ...email, subject: e.target.value } })} />
                                 </p>
                                 <p>
                                     <input placeholder="Email Address" value={email.from}
                                         onChange={e => this.setState({ email: { ...email, from: e.target.value } })} />
                                 </p>
-                                <div class="input-group full">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text">Message</span>
+                                <div className="input-group full">
+                                    <div className="input-group-prepend">
+                                        <span className="input-group-text">Message</span>
                                     </div>
-                                    <textarea class="form-control" rows="7" aria-label="With textarea" value={email.text}
+                                    <textarea className="form-control" rows="7" aria-label="With textarea" value={email.text}
                                         onChange={e => this.setState({ email: { ...email, text: e.target.value } })}></textarea>
                                 </div>
                                 <button className="btn btn-primary emailSubmitBtn hvr-shadow" type="button" onClick={() => {
