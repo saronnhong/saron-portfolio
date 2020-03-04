@@ -26,11 +26,11 @@
     background-image: url("/images/satellite-3977165_1920.jpg");
     background-size: cover;
     height: 100vh;
-    /* margin-top: -65px;           */
+    margin-top: -65px;          
 }
 .text-container {
     margin-top: 5%;
-    padding: 10px;
+    padding: 0 10px 10px 10px;
     
     position: fixed;
 }

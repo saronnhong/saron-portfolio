@@ -1,2 +1,22 @@
-
-
+.aboutUsTitle{
+    text-align: center;
+    background-image: url("/images/satellite-3977165_1920.jpg");
+    color: white;
+    padding: 10px;
+    
+}
+.twoCol{
+    color: rgb(125,125,125);
+    padding: 4%;
+}
+.threeCol{
+    text-align: center;
+    background-color: rgb(220,220,220);
+    padding: 4%;
+}
+.goldIcon{
+    color: goldenrod;
+}
+.paragraphInfo{
+    color: rgb(125,125,125);
+}

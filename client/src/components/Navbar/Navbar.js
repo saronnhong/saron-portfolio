@@ -1,10 +1,10 @@
 import React from "react";
 import "./style.css";
 
-function Navbar() {
+function Navbar(props) {
     return (
-        <nav className="navBar">
-            <div className="nav-wrapper light-blue darken-3 nav-background">
+        <nav id="navBar" className={props.backgroundColor}>
+            <div className="nav-wrapper nav-background">
                 <div className="container">
                     <a href="/Home" className="brand-logo left">M&A INC.</a>
                     <ul id="nav-mobile" className="right hide-on-med-and-down">

@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar />
+        <Navbar backgroundColor="grey darken-4"/>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />

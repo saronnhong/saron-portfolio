@@ -1,6 +1,7 @@
 .contactForm{
     margin-top: 5%;
     width: 50vw;
+    
 }
 
 #confirmMessage{
@@ -12,3 +13,9 @@
     /* padding: 7px;
     margin: 5px; */
   }
+/* .contactPage{
+    background-image: url("/images/satellite-3977165_1920.jpg");
+    background-size: cover;
+    height: 100vh;
+    margin-top: -65px; 
+} */

@@ -3,7 +3,7 @@
 }
 
 /* Used to override default settings */
-.navBar {
+#navBar {
     /* background-color: rgb(255,255,255, 0); */
     font-family: 'Space Mono';
     color: white;
