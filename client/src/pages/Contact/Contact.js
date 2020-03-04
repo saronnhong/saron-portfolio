@@ -25,7 +25,7 @@ class Contact extends Component {
             .then(res => {
                 if (res) {
                     const { email } = this.state;
-                    this.setState({ email: { ...email, confirmMsg: "Email sent.", from: "", phone: "", subject: "", text: "" } })
+                    this.setState({ email: { ...email, confirmMsg: "Email sent.", from: "", phone: "number has reset", subject: "", text: "" } })
                 } else {
                     alert("email was not sent!");
                 }
@@ -85,7 +85,7 @@ class Contact extends Component {
                 <button class="btn waves-effect waves-light" type="submit" name="action" onClick={() => {
                     this.sendEmail();
                 }}>Submit
-    <i class="material-icons right">send</i>
+                <i class="material-icons right">send</i>
                 </button>
                 {/* <button className="btn btn-primary emailSubmitBtn hvr-shadow" type="button" onClick={() => {
                     this.sendEmail();
