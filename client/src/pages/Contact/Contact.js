@@ -8,6 +8,7 @@ class Contact extends Component {
             recipient: 'sn.reactport@gmail.com',
             sender: 'chich20x6@gmail.com',
             from: '',
+            phone: '',
             subject: '',
             text: '',
             confirmMsg: ''
@@ -24,7 +25,7 @@ class Contact extends Component {
             .then(res => {
                 if (res) {
                     const { email } = this.state;
-                    this.setState({ email: { ...email, confirmMsg: "Email sent.", from: "", subject: "", text: "" } })
+                    this.setState({ email: { ...email, confirmMsg: "Email sent.", from: "", phone: "", subject: "", text: "" } })
                 } else {
                     alert("email was not sent!");
                 }
@@ -34,14 +35,10 @@ class Contact extends Component {
 
     render() {
         const { email } = this.state;
-        const spacer = {
-            margin: 10
-        }
-        const textArea = {
-            borderRadius: 4
-        }
+        
         return (
             <div className="contactForm container" >
+                <p id="confirmMessage">{email.confirmMsg}</p>
                 <div class="row">
                     <form class="col s12">
                         <div class="row">
@@ -53,7 +50,8 @@ class Contact extends Component {
                             </div>
                             <div class="input-field col s6">
                                 <i class="material-icons prefix">phone</i>
-                                <input id="icon_telephone" type="tel" class="validate" />
+                                <input id="icon_telephone" type="tel" class="validate" placeholder="Phone" value={email.phone}
+                                    onChange={e => this.setState({ email: { ...email, phone: e.target.value } })}/>
                                 <label for="icon_telephone">Telephone</label>
                             </div>
                         </div>
