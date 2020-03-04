@@ -13,7 +13,7 @@ class Home extends Component {
         return (
             <div className="home">
                 <div className="background-overlay container ">
-                    <div className="text-container scrim">
+                    <div className="text-container scrim tracking-in-expand">
                         <h2>SURVIVABLE SPACE SYSTEMS</h2>
                         <h5>Engineering Services and Technology Development</h5>
                     </div>

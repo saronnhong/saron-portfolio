@@ -4,7 +4,7 @@ import "./style.css";
 function Navbar() {
     return (
         <nav className="navBar">
-            <div className="nav-wrapper transparent grey darken-4 nav-background">
+            <div className="nav-wrapper light-blue darken-3 nav-background">
                 <div className="container">
                     <a href="/Home" className="brand-logo left">M&A INC.</a>
                     <ul id="nav-mobile" className="right hide-on-med-and-down">
@@ -14,7 +14,6 @@ function Navbar() {
                         <li><a href="/contact">Contact</a></li>
                     </ul>
                 </div>
-
             </div>
         </nav>
     );

@@ -26,18 +26,20 @@
     background-image: url("/images/satellite-3977165_1920.jpg");
     background-size: cover;
     height: 100vh;
-    margin-top: -65px;          
+    /* margin-top: -65px;           */
 }
 .text-container {
-    margin-top: 18%;
+    margin-top: 5%;
+    padding: 10px;
     
     position: fixed;
 }
 /* scrim added to darked background near text */
 .scrim {
-  border-radius: 50%;
-  background-color: rgba(0, 0, 0, .2);
-  box-shadow: 0 0 5rem rgba(0, 0, 0, .5);
+  /* border-radius: 50%; */
+  
+  background-color: rgba(0, 0, 0, .5);
+  /* box-shadow: 0 0 5rem rgba(0, 0, 0, .5); */
   
 }
 
