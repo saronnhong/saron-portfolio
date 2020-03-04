@@ -29,7 +29,7 @@ app.post("/send-email", function (req, res) {
   };
   sgMail.send(msg)
     .then((msg) => {
-      console.log(msg);
+      // console.log(msg);
       res.send("Email has been sent.");
     });
   
