@@ -25,7 +25,7 @@ class Contact extends Component {
             .then(res => {
                 if (res) {
                     const { email } = this.state;
-                    this.setState({ email: { ...email, confirmMsg: "Email sent.", from: "", phone: "number has reset", subject: "", text: "" } })
+                    this.setState({ email: { ...email, confirmMsg: "Email sent.", from: "", phone: "", subject: "", text: "" } })
                 } else {
                     alert("email was not sent!");
                 }

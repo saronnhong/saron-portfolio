@@ -2,3 +2,13 @@
     margin-top: 5%;
     width: 50vw;
 }
+
+#confirmMessage{
+    background-color: #E38D58;
+    color: white;
+    font-weight: bolder;
+    width: 6em;
+    text-align: center;
+    padding: 7px;
+    margin: 5px;
+  }
