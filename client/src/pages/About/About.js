@@ -10,10 +10,10 @@ function About() {
             <div className="twoCol container row">
                 <div className="col s3">
                     <h5>
-                        Stellar Service
+                        <b>Stellar Service</b>
                     </h5>
                 </div>
-                <div className="col s9">
+                <div className="col s9 col9section">
                     <h6>
                         We achieve customer excellence by anticipating and responding to the needs of our customers for the highest level of quality in our products. We aim to be your team partner of the year, and we achieve this by following rigorous test and development standards that exceed those required by the industry.
                     </h6>

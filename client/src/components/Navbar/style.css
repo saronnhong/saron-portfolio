@@ -1,14 +1,19 @@
 .nav-background {
-    opacity: .8;
+    /* opacity: .8; */
 }
 
 /* Used to override default settings */
 #navBar {
-    /* background-color: rgb(255,255,255, 0); */
+    /* background-color: rgb(255,255,255, 0.3); */
     font-family: 'Space Mono';
     color: white;
+    background-color: rgba(34,34,34,0.95);
+    
 }
 nav {
-    background-color: rgba(255, 255, 255, 0);
+    /* background-color: rgba(255, 255, 255, 0); */
     
+}
+#contactLink{
+    color: #4CD463;
 }

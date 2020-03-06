@@ -1,13 +1,19 @@
 .aboutUsTitle{
     text-align: center;
-    background-image: url("/images/satellite-3977165_1920.jpg");
+    background-image: url("/images/sunrise-1756274_1280.jpg");
     color: white;
-    padding: 10px;
+    padding: 70px 0px 30px 0px;
+    margin: -70px;
     
 }
 .twoCol{
     color: rgb(125,125,125);
-    padding: 4%;
+    padding-top: 8%;
+    
+}
+
+.col9section{
+    margin-left: 2.5rem;
 }
 .threeCol{
     text-align: center;

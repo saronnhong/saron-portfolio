@@ -16,7 +16,10 @@ class Home extends Component {
                     <div className="text-container scrim tracking-in-expand">
                         <h2>SURVIVABLE SPACE SYSTEMS</h2>
                         <h5>Engineering Services and Technology Development</h5>
+                        <button class="waves-effect waves-light btn green contactbtn">Contact Us</button>
                     </div>
+                    
+                    
                 </div>
 
             </div>

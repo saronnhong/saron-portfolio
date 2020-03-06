@@ -1,2 +1,16 @@
-
-
+.serviceBox{
+    background-color: goldenrod;
+    height: 300px;
+}
+.serviceBox2{
+    background-color: rgba(10,10,10,.9);
+    height: 300px;
+    color: whitesmoke;
+}
+.buttonTitle{
+    font-size: large;
+    font-weight: bolder;
+}
+.buttonText{
+    font-size: small; 
+}
