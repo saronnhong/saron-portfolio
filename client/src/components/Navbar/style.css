@@ -10,10 +10,18 @@
     background-color: rgba(34,34,34,0.95);
     
 }
-nav {
-    /* background-color: rgba(255, 255, 255, 0); */
-    
-}
-#contactLink{
+
+.contactLink{
     color: #4CD463;
+}
+
+.navLinks:hover {
+    color: yellow;
+  }
+.activeLink {
+    color:yellow;
+}
+.navActiveContact{
+    color: #4CD463;
+    font-weight: 950;
 }
