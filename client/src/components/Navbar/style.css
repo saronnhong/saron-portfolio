@@ -1,14 +1,9 @@
-.nav-background {
-    /* opacity: .8; */
-}
-
 /* Used to override default settings */
 #navBar {
     /* background-color: rgb(255,255,255, 0.3); */
     font-family: 'Space Mono';
     color: white;
     background-color: rgba(34,34,34,0.95);
-    
 }
 
 .contactLink{
@@ -25,3 +20,45 @@
     color: #4CD463;
     font-weight: 950;
 }
+
+.navUnActive, .navActive, .navActiveContact, .navContactUnActive {
+    margin: 0;
+    line-height: 4em;
+    height: 50px;
+    position: relative;
+}
+#navContact::after{
+    background-color: #4CD463;
+}
+
+.navUnActive::after, .navActive::after, .navActiveContact::after, .navContactUnActive::after {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: yellow;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+.navUnActive:hover::after, .navActive:hover::after, .navActiveContact:hover::after, .navContactUnActive:hover::after {
+    visibility: visible;
+    -webkit-transform: scaleX(.75);
+    transform: scaleX(.75);
+}
+
+ .navUnActive:hover{
+    color: white;
+    /* text-decoration-color: white; */
+ }
+ .navActive:hover{
+     color: yellow
+ }
+ .navContactUnActive:hover{
+    color: #4CD463;
+ }
+  

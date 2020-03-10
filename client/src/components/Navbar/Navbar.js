@@ -17,22 +17,22 @@ class Navbar extends React.Component {
                             <ul id="nav-mobile" className="right hide-on-med-and-down">
                                 <li>
                                     <Link smooth to="/home">
-                                        <a className={isActive === "/home" ? "activeLink navLinks" : "navLinks"}>Home</a>
+                                        <a className={isActive === "/home" ? "activeLink navLinks navActive" : "navLinks navUnActive"}>Home</a>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link smooth to="/about">
-                                        <a className={isActive === "/about" ? "activeLink navLinks" : "navLinks"}>About</a>
+                                        <a className={isActive === "/about" ? "activeLink navLinks navActive" : "navLinks navUnActive"}>About</a>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link smooth to="/service">
-                                        <a className={isActive === "/service" ? "activeLink navLinks" : "navLinks"}>Services</a>
+                                        <a className={isActive === "/service" ? "activeLink navLinks navActive" : "navLinks navUnActive"}>Services</a>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link smooth to="/contact">
-                                        <a className={isActive === "/contact" ? "activeLink navActiveContact" : "contactLink"}>Contact</a>
+                                        <a id="navContact" className={isActive === "/contact" ? "activeLink navActiveContact navContactActive" : "contactLink navContactUnActive"}>Contact</a>
                                     </Link>
                                 </li>
 
