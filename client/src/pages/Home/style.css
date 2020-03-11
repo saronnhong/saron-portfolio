@@ -28,12 +28,15 @@
     height: 100vh;
     width:100%;
     margin-top: -65px;  
-    position:fixed;        
+    position:fixed;    
+    font-family: 'Lato', sans-serif;
+      
 }
 .text-container {
-    margin-top: 230px;
+    margin-top: 25%;
     text-align: center;
     /* line-height: 1.2; */
+    
 }
 /* scrim added to darked background near text */
 .scrim {

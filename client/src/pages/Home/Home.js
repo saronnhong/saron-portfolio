@@ -15,7 +15,7 @@ class Home extends Component {
             <div className="home">
                 <div className="background-overlay container">
                     <div className="text-container scrim tracking-in-expand ">
-                        <h2>SURVIVABLE SPACE SYSTEMS</h2>
+                        <h1>SURVIVABLE SPACE SYSTEMS</h1>
                         <h5>Engineering Services and Technology Development</h5>
                         <Link smooth to="/contact">
                             <button class="waves-effect waves-light btn green contactbtn">Contact Us</button>
