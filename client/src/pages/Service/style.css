@@ -1,11 +1,22 @@
 .serviceBox{
     background-color: goldenrod;
+    width: 100%;
     height: 300px;
+    
 }
+.serviceBox:focus{
+    background-color: goldenrod;
+}
+.serviceBox2:focus{
+    background-color: rgba(10,10,10,.9);
+}
+
 .serviceBox2{
     background-color: rgba(10,10,10,.9);
+    width: 100%;
     height: 300px;
     color: whitesmoke;
+    
 }
 .buttonTitle{
     font-size: large;
@@ -13,4 +24,7 @@
 }
 .buttonText{
     font-size: small; 
+}
+.serviceItems{
+    margin-bottom: 0px;
 }

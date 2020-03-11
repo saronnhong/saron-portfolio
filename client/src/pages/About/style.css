@@ -7,7 +7,7 @@
     
 }
 .twoCol{
-    color: rgb(125,125,125);
+    color: rgb(75,75,75);
     padding-top: 8%;
     
 }
@@ -25,4 +25,5 @@
 }
 .paragraphInfo{
     color: rgb(125,125,125);
+    text-align: left;
 }
