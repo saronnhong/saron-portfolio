@@ -15,8 +15,10 @@ class Home extends Component {
             <div className="home">
                 <div className="background-overlay container">
                     <div className="text-container scrim tracking-in-expand ">
-                        <h1>SURVIVABLE SPACE SYSTEMS</h1>
-                        <h5>Engineering Services and Technology Development</h5>
+                        <div className="homeHeader">Survivable Space Systems</div>
+                        <div className="homeText">Engineering Services and Technology Development Get all your meetings minutes, tasks and decisions in one place. Share them with anyone instantly. Export them to all the tools you already use.</div>
+                        {/* <h1>SURVIVABLE SPACE SYSTEMS</h1>
+                        <h5>Engineering Services and Technology Development</h5> */}
                         <Link smooth to="/contact">
                             <button class="waves-effect waves-light btn green contactbtn">Contact Us</button>
                         </Link>

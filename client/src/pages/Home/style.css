@@ -23,36 +23,56 @@
 } */
 .home{
     color: rgb(250,250,250);
-    background-image: url("/images/international-space-station-1176518_1920.jpg");
+    /* background-image: url("/images/international-space-station-1176518_1920.jpg"); */
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("/images/satellite-1030779_1920.jpg");
     background-size: cover;
     height: 100vh;
     width:100%;
     margin-top: -65px;  
     position:fixed;    
     font-family: 'Lato', sans-serif;
+    
+    
       
 }
 .text-container {
-    margin-top: 25%;
-    text-align: center;
+    margin-top: 20%;
+    /* text-align: center; */
     /* line-height: 1.2; */
     
 }
 /* scrim added to darked background near text */
-.scrim {
+/* .scrim {
   border-radius: 50%;
   background-color: rgba(0, 0, 0, .2);
   box-shadow: 0 0 5rem rgba(0, 0, 0, .5);
-}
+} */
 /* .homeContent{
   margin: 50%;
 } */
 .contactbtn{
   margin-top: 20px;
   /* background-color: #4CD463; */
-  opacity: .95;
+  opacity: .9;
   border-radius: 20px;
+  
 
+
+}
+.homeHeader{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: left;
+}
+.homeText{
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  text-align: left;
+  width: 500px;
+  line-height: 1.5;
+  margin-top: 20px;
+  opacity: .8;
 }
 
  
