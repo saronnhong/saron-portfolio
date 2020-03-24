@@ -83,7 +83,7 @@
 .nav-link{
     font-weight: 600;
     font-size: 16px;
-    padding: 25px 40px;
+    padding: 25px;
     margin: 0px;
     border: none; 
     -webkit-transition: background 1s; 
@@ -107,5 +107,6 @@ a:link{
     padding: 0px;
 }
 .bg-light{
-    background-color: #F7F8F9;
+    background-color: #F7F8F9 !important;
+    /* background-color: cornflowerblue !important; */
 }

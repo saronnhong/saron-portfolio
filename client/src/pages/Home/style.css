@@ -3,11 +3,11 @@
     background: linear-gradient(to right, rgba(255, 255, 255, 0.2) 0.35%, rgba(255, 255, 255, 0) 94.53%), url("/images/satellite-1030779_1600x525crop.jpg");
     /* background: url("/images/satellite-1030779_1600x525crop.jpg"); */
     background-size: cover;
-    height: 32vw;
+    height: 33vw;
     /* width:100%; */
     position: relative;
     /* left:0; */
-    top: 75px; 
+    top: 74px; 
 }
 .home{
   color: #20242B;
@@ -30,14 +30,19 @@
   width: 50%;
   color: rgba(32, 36, 43, 0.8);
 }
+.contactUsBtn{
+  position: relative;
+  left:-15px;
+  top: 100px;
+}
 .homeBottom{
   position: relative;
   /* width: 100%; */
   top: 125px;
 }
 .homeTitle{
-  /* font-style: normal;
-  font-weight: normal; */
+  font-style: normal;
+  font-weight: lighter; 
   font-size: 58px;
   color: #099BCA;
   text-align: center;
@@ -46,8 +51,10 @@
   font-family: Nunito Sans;
   /* font-style: normal;
   font-weight: normal; */
+  margin-top: 25px;
   font-size: 16px;
-  color: rgba(0, 0, 0, 0.8);
+  /* color: rgba(0, 0, 0, 0.8); */
+  color: #626365;
 }
 
   

@@ -14,6 +14,7 @@ class Home extends Component {
                             <h1 className="homeHeader">Survivable Space Systems</h1>
                             <p className="homeText">Engineering Services and Technology Development Get all your meetings minutes, tasks and decisions in one place. Share them with anyone instantly. Export them to all the tools you already use.</p>
                         </div>
+                        <button type="button" class="btn btn-dark contactUsBtn">Contact Us</button>
                     </div>
                 </div>
                 <div className="homeBottom">
