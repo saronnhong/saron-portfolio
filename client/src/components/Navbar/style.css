@@ -1,9 +1,6 @@
 /* Used to override default settings */
-#navBar {
-    /* background-color: rgb(255,255,255, 0.3); */
-    font-family: 'Space Mono';
-    color: white;
-    background-color: rgba(34,34,34,0.95);
+/* #navBar {
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .contactLink{
@@ -26,6 +23,7 @@
     line-height: 4em;
     height: 50px;
     position: relative;
+    color: black;
 }
 #navContact::after{
     background-color: #4CD463;
@@ -52,8 +50,7 @@
 }
 
  .navUnActive:hover{
-    color: white;
-    /* text-decoration-color: white; */
+    color: black;
  }
  .navActive:hover{
      color: yellow
@@ -61,3 +58,51 @@
  .navContactUnActive:hover{
     color: #4CD463;
  }
+ .brand-logo{
+     color: black !important;
+ }
+ .navBarLogo{
+     font-weight: 800;
+     font-size: 34px;
+ } */
+
+.active {
+    font-weight: 900;
+}
+
+.navBarLogo{
+    font-weight: bolder;
+    font-size: 34px;
+    /* font-style: normal; */
+    color: #141414; 
+}
+.navBarLogo:hover{
+    color: #141414;
+}
+
+.nav-link{
+    font-weight: 600;
+    font-size: 18px;
+    padding: 25px 40px;
+    margin: 0px;
+    border: none; 
+    -webkit-transition: background 1s; 
+    /* transition: background 1s;  */
+    transition: ease-in background 1s;
+}
+.nav-link:hover{
+    background-color: rgb(235,235,235);
+    /* background-color: #099BCA; */
+    color: #099BCA !important;
+    font-weight: 600;
+}
+/* .nav-item:hover{
+    background-color: #099BCA;
+} */
+a:link{
+    text-decoration: none;
+}
+
+.navbar{
+    padding: 0px;
+}
