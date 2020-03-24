@@ -14,16 +14,16 @@
   position:absolute; 
   width: 100%;
 }
-.imageContainer{
+.bannerContainer{
   position: relative;
   top: 100px;
 }
-.homeHeader{
+.homeBanner{
   /* font-style: normal; */
   font-weight: 600;
   font-size: 58px;
 }
-.homeText{
+.homeBannerText{
   /* font-style: normal;
   font-weight: normal; */
   font-size: 18px;
@@ -47,7 +47,7 @@
   color: #099BCA;
   text-align: center;
 }
-.homeContent{
+.homeText{
   font-family: Nunito Sans;
   /* font-style: normal;
   font-weight: normal; */
