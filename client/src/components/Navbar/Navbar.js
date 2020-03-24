@@ -97,22 +97,22 @@ class Navbar extends React.Component {
                             <ul className="navbar-nav">
                                 <Link smooth to="/home">
                                     <li className={isActive === "/home" ? "active nav-item" : "nav-item"}>
-                                        <a className="nav-link">Home</a>
+                                        <a href="/home" className="nav-link">Home</a>
                                     </li>
                                 </Link>
                                 <Link smooth to="/about">
                                     <li className={isActive === "/about" ? "active nav-item" : "nav-item"}>
-                                        <a className="nav-link">About</a>
+                                        <a href="/about" className="nav-link">About</a>
                                     </li>
                                 </Link>
                                 <Link smooth to="/service">
                                     <li className={isActive === "/service" ? "active nav-item" : "nav-item"}>
-                                        <a className="nav-link">Services</a>
+                                        <a href="/service" className="nav-link">Services</a>
                                     </li>
                                 </Link>
                                 <Link smooth to="/contact">
                                     <li className={isActive === "/contact" ? "active nav-item" : "nav-item"}>
-                                        <a className="nav-link" id="navContact">Contact</a>
+                                        <a href="/contact" className="nav-link" id="navContact">Contact</a>
                                     </li>
                                 </Link>
                             </ul>

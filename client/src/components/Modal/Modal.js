@@ -1,32 +1,32 @@
 import React, { Component } from "react";
-import M from "materialize-css";
+// import M from "materialize-css";
 // import "materialize-css/dist/css/materialize.min.css";
 import "./style.css";
 
 class Modal extends Component {
-    componentDidMount() {
-        const options = {
-            onOpenStart: () => {
-                console.log("Open Start");
-            },
-            onOpenEnd: () => {
-                console.log("Open End");
-            },
-            onCloseStart: () => {
-                console.log("Close Start");
-            },
-            onCloseEnd: () => {
-                console.log("Close End");
-            },
-            inDuration: 250,
-            outDuration: 250,
-            opacity: .6,
-            dismissible: true,
-            startingTop: "4%",
-            endingTop: "15%"
-        };
-        M.Modal.init(this.Modal, options);
-    }
+    // componentDidMount() {
+    //     const options = {
+    //         onOpenStart: () => {
+    //             console.log("Open Start");
+    //         },
+    //         onOpenEnd: () => {
+    //             console.log("Open End");
+    //         },
+    //         onCloseStart: () => {
+    //             console.log("Close Start");
+    //         },
+    //         onCloseEnd: () => {
+    //             console.log("Close End");
+    //         },
+    //         inDuration: 250,
+    //         outDuration: 250,
+    //         opacity: .6,
+    //         dismissible: true,
+    //         startingTop: "4%",
+    //         endingTop: "15%"
+    //     };
+    //     M.Modal.init(this.Modal, options);
+    // }
 
     render() {
         return (
