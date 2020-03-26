@@ -1,29 +1,39 @@
-.aboutUsTitle{
+.about{
+    color: #20242B;
+    position:absolute; 
+    width: 100%;
+}
+.aboutBanner{
+    background: url("/images/astronaut_about.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 33vw;
+    position: relative;
+    top: 74px; 
+}
+.whoWeAre{
+    position: relative;
     text-align: center;
-    background-image: url("/images/sunrise-1756274_1280.jpg");
-    color: white;
-    padding: 70px 0px 30px 0px;
-    margin: -70px;
-    
+    top: 390px;
+    font-weight: 400;
+    font-size: 48px;
+    color: rgba(255, 255, 255, 0.9);
 }
-.twoCol{
-    color: rgb(75,75,75);
-    padding-top: 8%;
-    
+.aboutContent{
+    position: relative;
+    top: 125px;
+    height: 50vh;
 }
-
-.col9section{
-    margin-left: 2.5rem;
-}
-.threeCol{
+.aboutTitle{
+    font-style: normal;
+    font-weight: lighter; 
+    font-size: 58px;
+    color: #099BCA;
     text-align: center;
-    background-color: rgb(220,220,220);
-    padding: 4%;
 }
-.goldIcon{
-    color: goldenrod;
-}
-.paragraphInfo{
-    color: rgb(125,125,125);
-    text-align: left;
+.aboutText{
+    margin-top: 25px;
+    font-size: 16px;
+    color: #626365;
+    line-height: 25px;
 }

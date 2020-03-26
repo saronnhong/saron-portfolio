@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 // import { HashLink as Link } from 'react-router-hash-link';
+import { HashLink as Link } from 'react-router-hash-link';
 import "./style.css";
 
 
 class Home extends Component {
-    
+
     render() {
         return (
             <div className="home">
@@ -14,7 +15,10 @@ class Home extends Component {
                             <h1 className="homeBanner">Survivable Space Systems</h1>
                             <p className="homeBannerText">Engineering Services and Technology Development</p>
                         </div>
-                        <button type="button" class="btn btn-dark contactUsBtn">Contact Us</button>
+                        <Link to="/contact">
+                            <button type="button" class="btn btn-dark contactUsBtn">Contact Us</button>
+                        </Link>
+
                     </div>
                 </div>
                 <div className="homeBottom">

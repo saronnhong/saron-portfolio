@@ -8,11 +8,11 @@
     background-size: cover;
     height: 33vw;
     position: relative;
-    top: 140px; 
+    top: 74px; 
 }
 .contactPage{
     position: relative;
-    top: 250px;
+    top: 125px;
     text-align: left;
     height: 80vh;
 }
@@ -23,7 +23,7 @@
     color: #099BCA;
     text-align: center;
     position: relative;
-    top: 25px;
+    /* top: 25px; */
 }
 .contactContent{
     position: relative;
@@ -32,7 +32,6 @@
 .textFields{
     width: 100%;
     padding: 6px;
-    
 }
 #confirmMessage{
     background-color: #E38D58;
