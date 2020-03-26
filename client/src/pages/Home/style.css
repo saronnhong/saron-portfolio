@@ -22,18 +22,22 @@
   /* font-style: normal; */
   font-weight: 600;
   font-size: 58px;
+  text-transform: uppercase;
 }
 .homeBannerText{
   /* font-style: normal;
   font-weight: normal; */
-  font-size: 18px;
-  width: 50%;
-  color: rgba(32, 36, 43, 0.8);
+  font-size: 28px;
+  /* width: 50%; */
+  color: rgba(32, 36, 43, 0.9);
 }
 .contactUsBtn{
   position: relative;
   left:-15px;
   top: 100px;
+  background-color: #099BCA;
+  padding: .4rem 1rem;
+  border: white;
 }
 .homeBottom{
   position: relative;

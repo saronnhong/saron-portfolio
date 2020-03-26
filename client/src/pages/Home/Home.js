@@ -12,7 +12,7 @@ class Home extends Component {
                     <div className="container">
                         <div className="row bannerContainer">
                             <h1 className="homeBanner">Survivable Space Systems</h1>
-                            <p className="homeBannerText">Engineering Services and Technology Development Get all your meetings minutes, tasks and decisions in one place. Share them with anyone instantly. Export them to all the tools you already use.</p>
+                            <p className="homeBannerText">Engineering Services and Technology Development</p>
                         </div>
                         <button type="button" class="btn btn-dark contactUsBtn">Contact Us</button>
                     </div>

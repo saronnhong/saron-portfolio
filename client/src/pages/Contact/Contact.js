@@ -38,14 +38,51 @@ class Contact extends Component {
         const { email } = this.state;
 
         return (
-            <div>
+            <div className="contact">
                 <div className="aboutUsTitle">
-                    <h1>Contact Us</h1>
+
                 </div>
-                <div className="contactPage">
+                <div className="contactPage container">
+                    <h1 className="contactTitle">Get In Touch With Us</h1>
+                    <div className="row contactContent">
+                        <div className="col-md-4">
+                            <h1>Our Office</h1>
+                            <p>Address: 4980 North Harbor Drive, Suite 202, San Diego, CA, 92106</p>
+                            <p>Telephone: 111-111-1111</p>
+                            <p>Email: milanowski@radhard.com</p>
+                        </div>
+                        <div className="col-md-8">
+                            <h3>Contact Us</h3>
+                            <p id="confirmMessage">{email.confirmMsg}</p>
+                            <form>
+                                <p>
+                                    <input className="textFields" placeholder="Name" value={email.subject}
+                                        onChange={e => this.setState({ email: { ...email, subject: e.target.value } })} />
+                                </p>
+                                <p>
+                                    <input className="textFields" placeholder="Phone" value={email.phone}
+                                        onChange={e => this.setState({ email: { ...email, phone: e.target.value } })} />
+                                </p>
+                                <p>
+                                    <input className="textFields" placeholder="Email Address" value={email.from}
+                                        onChange={e => this.setState({ email: { ...email, from: e.target.value } })} />
+                                </p>
+                                <div class="input-group full">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">Message</span>
+                                    </div>
+                                    <textarea class="form-control" rows="7" aria-label="With textarea" value={email.text}
+                                        onChange={e => this.setState({ email: { ...email, text: e.target.value } })}></textarea>
+                                </div>
+                                <button className="btn btn-primary emailSubmitBtn hvr-shadow" type="button" onClick={() => {
+                                    this.sendEmail();
+                                }}> Send Message</button>
+                            </form>
+                        </div>
+                    </div>
 
 
-                    <div className="contactForm container" >
+                    {/* <div className="contactForm container" >
 
                         <p id="confirmMessage">{email.confirmMsg}</p>
                         <div className="formTop row">
@@ -95,7 +132,8 @@ class Contact extends Component {
                         }}>Submit
                 <i className="material-icons right">send</i>
                         </button>
-                    </div>
+                    </div> */}
+
                 </div>
             </div>
 

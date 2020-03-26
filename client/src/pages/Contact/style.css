@@ -1,24 +1,50 @@
-.contactForm{
-    margin-top: 5%;
-    width: 50vw;
+.aboutUsTitle{
+    /* background: linear-gradient(to right, rgba(255, 255, 255, 0.2) 0.35%, rgba(255, 255, 255, 0) 94.53%), url("/images/satellite-1030779_1600x525crop.jpg"); */
+    background: url("/images/contacts-map-banner.jpg");
+    background-size: cover;
+    height: 33vw;
+    /* width:100%; */
+    position: relative;
+    /* left:0; */
+    top: 140px; 
+}
+.contactPage{
+    position: relative;
+    top: 250px;
+    text-align: left;
+}
+.contactContent{
+    position: relative;
+    top: 50px;
+}
+.contact{
+    color: #20242B;
+    position:absolute; 
+    width: 100%;
+}
+.contactTitle{
+    font-style: normal;
+    font-weight: lighter; 
+    font-size: 58px;
+    color: #099BCA;
+    text-align: center;
+}
+.textFields{
+    width: 100%;
+    padding: 6px;
     
 }
-
 #confirmMessage{
     background-color: #E38D58;
     color: white;
     font-weight: bolder;
     width: 6em;
     text-align: center;
-    /* padding: 7px;
-    margin: 5px; */
   }
-/* .contactPage{
-    background-image: url("/images/satellite-3977165_1920.jpg");
-    background-size: cover;
-    height: 100vh;
-    margin-top: -65px; 
-} */
-.contactPage{
-    margin-top: 125px;
-}
+  /* form input{
+      padding: 7px;
+  } */
+
+  .emailSubmitBtn{
+      margin-top: 10px;
+  }
