@@ -47,12 +47,15 @@ class Contact extends Component {
                     <div className="row contactContent">
                         <div className="col-md-4">
                             <h1>Our Office</h1>
-                            <p>Address: 4980 North Harbor Drive, Suite 202, San Diego, CA, 92106</p>
-                            <p>Telephone: 111-111-1111</p>
-                            <p>Email: milanowski@radhard.com</p>
+                            <div className="contactInfo">
+                                <p><i class="fas fa-map-marker-alt"></i> 4980 North Harbor Drive<br></br>Suite 202,<br></br>San Diego, CA, 92106</p>
+                                <p><i className="fa fa-phone"></i> 111-111-1111</p>
+                                <p><i className="fa fa-envelope"></i> milanowski@radhard.com</p>
+                            </div>
+
                         </div>
                         <div className="col-md-8">
-                            <h3>Contact Us</h3>
+                            <h1>Contact Us</h1>
                             <p id="confirmMessage">{email.confirmMsg}</p>
                             <form>
                                 <p>

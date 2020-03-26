@@ -1,6 +1,6 @@
 .aboutUsTitle{
     /* background: linear-gradient(to right, rgba(255, 255, 255, 0.2) 0.35%, rgba(255, 255, 255, 0) 94.53%), url("/images/satellite-1030779_1600x525crop.jpg"); */
-    background: url("/images/contacts-map-banner.jpg");
+    background: url("/images/contact_banner3.jpg");
     background-size: cover;
     height: 33vw;
     /* width:100%; */
@@ -12,15 +12,17 @@
     position: relative;
     top: 250px;
     text-align: left;
+    height: 80vh;
 }
 .contactContent{
     position: relative;
-    top: 50px;
+    top: 55px;
 }
 .contact{
     color: #20242B;
     position:absolute; 
     width: 100%;
+    
 }
 .contactTitle{
     font-style: normal;
@@ -28,6 +30,8 @@
     font-size: 58px;
     color: #099BCA;
     text-align: center;
+    position: relative;
+    top: 25px;
 }
 .textFields{
     width: 100%;
@@ -46,5 +50,10 @@
   } */
 
   .emailSubmitBtn{
-      margin-top: 10px;
+      margin-top: 15px;
+      padding: 10px 15px;
+  }
+  .contactInfo{
+      margin-top: 20px;
+      color: #626365;
   }
