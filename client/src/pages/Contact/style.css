@@ -1,11 +1,13 @@
+.contact{
+    color: #20242B;
+    position:absolute; 
+    width: 100%;  
+}
 .aboutUsTitle{
-    /* background: linear-gradient(to right, rgba(255, 255, 255, 0.2) 0.35%, rgba(255, 255, 255, 0) 94.53%), url("/images/satellite-1030779_1600x525crop.jpg"); */
-    background: url("/images/contact_banner3.jpg");
+    background: url("/images/openstreet_contact_banner.jpg");
     background-size: cover;
     height: 33vw;
-    /* width:100%; */
     position: relative;
-    /* left:0; */
     top: 140px; 
 }
 .contactPage{
@@ -13,16 +15,6 @@
     top: 250px;
     text-align: left;
     height: 80vh;
-}
-.contactContent{
-    position: relative;
-    top: 55px;
-}
-.contact{
-    color: #20242B;
-    position:absolute; 
-    width: 100%;
-    
 }
 .contactTitle{
     font-style: normal;
@@ -32,6 +24,10 @@
     text-align: center;
     position: relative;
     top: 25px;
+}
+.contactContent{
+    position: relative;
+    top: 60px;
 }
 .textFields{
     width: 100%;
@@ -44,16 +40,12 @@
     font-weight: bolder;
     width: 6em;
     text-align: center;
-  }
-  /* form input{
-      padding: 7px;
-  } */
-
-  .emailSubmitBtn{
-      margin-top: 15px;
-      padding: 10px 15px;
-  }
-  .contactInfo{
-      margin-top: 20px;
-      color: #626365;
-  }
+}
+.emailSubmitBtn{
+    margin-top: 20px;
+    padding: 10px 15px;
+}
+.contactInfo{
+    margin-top: 20px;
+    color: #626365;
+}

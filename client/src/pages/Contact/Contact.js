@@ -39,20 +39,17 @@ class Contact extends Component {
 
         return (
             <div className="contact">
-                <div className="aboutUsTitle">
-
-                </div>
+                <div className="aboutUsTitle"></div>
                 <div className="contactPage container">
                     <h1 className="contactTitle">Get In Touch With Us</h1>
                     <div className="row contactContent">
                         <div className="col-md-4">
                             <h1>Our Office</h1>
                             <div className="contactInfo">
-                                <p><i class="fas fa-map-marker-alt"></i> 4980 North Harbor Drive<br></br>Suite 202,<br></br>San Diego, CA, 92106</p>
-                                <p><i className="fa fa-phone"></i> 111-111-1111</p>
+                                <p><i class="fas fa-map-marker-alt"></i> 4980 North Harbor Drive #202<br></br>San Diego, CA 92106</p>
+                                <p><i className="fa fa-phone"></i> 619.865.2174</p>
                                 <p><i className="fa fa-envelope"></i> milanowski@radhard.com</p>
                             </div>
-
                         </div>
                         <div className="col-md-8">
                             <h1>Contact Us</h1>

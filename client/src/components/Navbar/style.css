@@ -71,10 +71,11 @@
 }
 
 .navBarLogo{
-    font-weight: bolder;
+    font-weight: 800;
     font-size: 34px;
     /* font-style: normal; */
-    color: #141414; 
+    /* color: #141414;  */
+    color: rgb(66, 66, 66)
 }
 .navBarLogo:hover{
     color: #141414;
