@@ -21,19 +21,16 @@ function Service() {
                         <img className="serviceListImage" src="/images/raisting-3930778_640.jpg" width="95%" alt="service_image" />
                         <h2 className="serviceListTitle">Radiation Hardening by Process and Design for ASICs & FPGAs</h2>
                         <p className="serviceListText">Protecting the U.S., its friends and allies has never been more urgent. Our missile-defense systems aim to put the best technology up against the world's most pressing threats.</p>
-                        <button type="button" class="btn btn-outline-info">Learn More</button>
                     </div>
                     <div className="col-md-4">
                         <img className="serviceListImage" src="/images/rocket-launch-67721_640.jpg" width="95%" alt="service_image" />
                         <h2 className="serviceListTitle">Electronic Design Automation (EDA) Flows</h2>
                         <p className="serviceListText">Protecting the U.S., its friends and allies has never been more urgent. Our missile-defense systems aim to put the best technology up against the world's most pressing threats.</p>
-                        <button type="button" class="btn btn-outline-info">Learn More</button>
                     </div>
                     <div className="col-md-4">
                         <img className="serviceListImage" src="/images/space-station-60615_640.jpg" width="95%" alt="service_image" />
                         <h2 className="serviceListTitle">Radiation Testing and Component Analyses</h2>
                         <p className="serviceListText">Protecting the U.S., its friends and allies has never been more urgent. Our missile-defense systems aim to put the best technology up against the world's most pressing threats.</p>
-                        <button type="button" class="btn btn-outline-info">Learn More</button>
                     </div>
                 </div>
                 <div className="row serviceRow">
@@ -41,19 +38,16 @@ function Service() {
                         <img className="serviceListImage" src="/images/raisting-3930778_640.jpg" width="95%" alt="service_image" />
                         <h2 className="serviceListTitle">Radiation Hardening by Process and Design for ASICs & FPGAs</h2>
                         <p className="serviceListText">Protecting the U.S., its friends and allies has never been more urgent. Our missile-defense systems aim to put the best technology up against the world's most pressing threats.</p>
-                        <button type="button" class="btn btn-outline-info">Learn More</button>
                     </div>
                     <div className="col-md-4">
                         <img className="serviceListImage" src="/images/rocket-launch-67721_640.jpg" width="95%" alt="service_image" />
                         <h2 className="serviceListTitle">Electronic Design Automation (EDA) Flows</h2>
                         <p className="serviceListText">Protecting the U.S., its friends and allies has never been more urgent. Our missile-defense systems aim to put the best technology up against the world's most pressing threats.</p>
-                        <button type="button" class="btn btn-outline-info">Learn More</button>
                     </div>
                     <div className="col-md-4">
                         <img className="serviceListImage" src="/images/space-station-60615_640.jpg" width="95%" alt="service_image" />
                         <h2 className="serviceListTitle">Radiation Testing and Component Analyses</h2>
                         <p className="serviceListText">Protecting the U.S., its friends and allies has never been more urgent. Our missile-defense systems aim to put the best technology up against the world's most pressing threats.</p>
-                        <button type="button" class="btn btn-outline-info">Learn More</button>
                     </div>
                 </div>
             </div>
