@@ -24,12 +24,8 @@ class Home extends Component {
                     <div className="homeBottom">
                         <div className="container">
                             <div className="">
-                                <h1 className="homeTitle">
-                                    Milanowski. Your Mission is Ours.
-                            </h1>
-                                <p className="homeText">
-                                    Every day, our 110,000 employees come to work with one focus – our customers’ missions. Whether it's protecting citizens or advancing the boundaries of science, these missions are some of the most important and challenging in the world. We bring an unwavering commitment to help our customers succeed, and it’s that sense of purpose and opportunity to make a difference in the world that drives us every day.
-                            </p>
+                                <h1 className="homeTitle">Milanowski. Engineering the Latest Radiation Hardened Technologies to Support Our Customers’ Space Missions.</h1>
+                                <p className="homeText">For more than eleven years Milanowski & Associates, Inc. has been collaborating with Government and Commercial entities to ensure the successful development and production of the latest radiation hardened technologies. With courageous entrepreneurial rigor and unwavering commitment, we advance the boundaries of science and engineering. We strive to make a difference in the world. Contact us today for a consultation.</p>
                             </div>
                         </div>
                         <nav className="sticky-bottom">

@@ -63,12 +63,12 @@
     text-align: center;
     
   }
-.serviceText{
+/* .serviceText{
     margin-top: 25px;
     font-size: 16px;
     color: #626365;
     line-height: 25px;
-}
+} */
 .serviceRow{
     margin-top: 60px;
 }
@@ -89,7 +89,7 @@
     /* font-size: 18px; */
     line-height: 25px;
     
-    margin-top: 25px;
+    margin-top: 10px;
     font-size: 16px;
     color: #626365;
 }

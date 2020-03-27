@@ -12,7 +12,7 @@ function About() {
             <div className="aboutContent container">
                 <div className="aboutTitle">About Us</div>
                 <p className="aboutText">
-                    M&A Inc. supports a range Government and Commercial customers with scientific and engineering consulting services.                </p>
+                    M&A Inc. supports a range of Government and Commercial customers with scientific and engineering consulting services.                </p>
                 <p className="aboutText">
                     We specialize in the effect of ionizing radiation on semiconductor electronics and photonics technologies.
                 </p>

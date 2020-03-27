@@ -46,7 +46,7 @@ class Contact extends Component {
                         <div className="col-md-4">
                             <h1>Our Office</h1>
                             <div className="contactInfo">
-                                <p><a className="contactDetails" href="https://www.google.com/maps/place/4980+N+Harbor+Dr,+San+Diego,+CA+92106/"><i className="fas fa-map-marker-alt"></i> 4980 North Harbor Drive #202<br></br>San Diego, CA 92106</a></p>
+                                <p><a className="contactDetails" href="https://www.google.com/maps/place/4980+N+Harbor+Dr,+San+Diego,+CA+92106/" target="_blank"><i className="fas fa-map-marker-alt"></i> 4980 North Harbor Drive #202<br></br>San Diego, CA 92106</a></p>
                                 <p><a className="contactDetails" href="tel:619-865-2174"><i className="fa fa-phone"></i> 619.865.2174</a></p>
                                 <p><a className="contactDetails" href="mailto:milanowski@radhard.com"><i className="fa fa-envelope"></i> milanowski@radhard.com</a></p>
                             </div>
