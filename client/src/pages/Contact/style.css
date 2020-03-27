@@ -47,4 +47,12 @@
 .contactInfo{
     margin-top: 20px;
     color: #626365;
+    
+}
+.contactDetails{
+    text-decoration: none;
+    color: #626365;
+}
+.contactDetails:hover{
+    color: #2e2f30;
 }
