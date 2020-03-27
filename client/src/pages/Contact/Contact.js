@@ -79,8 +79,9 @@ class Contact extends Component {
                                 }}> Send Message</button>
                             </form>
                         </div>
+                        
                     </div>
-
+                    
 
                     {/* <div className="contactForm container" >
 
@@ -135,6 +136,9 @@ class Contact extends Component {
                     </div> */}
 
                 </div>
+                <nav className="sticky-bottom">
+                            <div>© 2020 Milanowski & Associates, Inc. All Rights Reserved.</div>
+                </nav>
             </div>
 
         );

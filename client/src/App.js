@@ -2,6 +2,7 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
+
 import Home from "./pages/Home";
 import About from './pages/About';
 import Service from './pages/Service';
@@ -20,6 +21,7 @@ function App() {
           <Route exact path="/contact" component={Contact} />
           <Route component={Home} />
         </Switch>
+        
       </div>
     </Router>
   );

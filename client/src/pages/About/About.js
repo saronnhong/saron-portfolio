@@ -19,7 +19,9 @@ function About() {
                 <p className="aboutText">
                     Our team of subject matter experts delivers a broad range of expertise from device physics through design and testing that allows us to provide insights into the performance of microelectronics components and systems in all radiation environments to our customers.                 </p>
             </div>
-
+            <nav className="sticky-bottom">
+                <a>© 2020 Milanowski & Associates, Inc. All Rights Reserved.</a>
+            </nav>
         </div>
     );
 }
