@@ -12,77 +12,70 @@ function Service() {
                 <div className="row serviceRow">
                     <div className="col-md-4">
                         <img className="serviceListImage" src="/images/raisting-3930778_640.jpg" width="95%" alt="service_image" />
-                        <h2 className="serviceListTitle">Radiation Hardening by Process and Design</h2>
+                        <h2 className="serviceListTitle">RADIATION HARDENING BY PROCESS AND DESIGN</h2>
                     </div>
                     <div className="col-md-4">
                         <img className="serviceListImage" src="/images/rocket-launch-67721_640.jpg" width="95%" alt="service_image" />
-                        <h2 className="serviceListTitle">Commercial Off The Shelf (COTS) part assessment/grading for use in radiation environments</h2>
+                        <h2 className="serviceListTitle">COTS PARTS MISSION ASSURANCE</h2>
                     </div>
                     <div className="col-md-4">
                         <img className="serviceListImage" src="/images/space-station-60615_640.jpg" width="95%" alt="service_image" />
-                        <h2 className="serviceListTitle">Technology Computer Aided Design (TCAD) Simulations & Design of Experiments</h2>
+                        <h2 className="serviceListTitle">TCAD DESIGN & SIMULATIONS</h2>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-md-4">
-                        <p className="serviceListText">Protecting the U.S., its friends and allies has never been more urgent. Our missile-defense systems aim to put the best technology up against the world's most pressing threats.</p>
+                        <p className="serviceListText">ASICs, FPGAs, digital, analog, and mixed component & process design for radiation-hardened or radiation tolerant space missions.</p>
                     </div>
                     <div className="col-md-4">
-                        <p className="serviceListText">Protecting the U.S., its friends and allies has never been more urgent. Our missile-defense systems aim to put the best technology up against the world's most pressing threats.</p>
+                        <p className="serviceListText">Commercial Off The Shelf (COTS) component assessment for use in radiation environment.</p>
                     </div>
                     <div className="col-md-4">
-                        <p className="serviceListText">Protecting the U.S., its friends and allies has never been more urgent. Our missile-defense systems aim to put the best technology up against the world's most pressing threats.</p>
+                        <p className="serviceListText">Technology Computer Aided Design (TCAD) modeling and analysis, including device operation in radiation environment.</p>
                     </div>
                 </div>
-                <div className="row serviceRow">
+                <div className="row serviceRow2">
                     <div className="col-md-4">
                         <img className="serviceListImage" src="/images/raisting-3930778_640.jpg" width="95%" alt="service_image" />
-                        <h2 className="serviceListTitle">Electronic Design Automation (EDA) Flows</h2>
+                        <h2 className="serviceListTitle">EDA FLOWS</h2>
                     </div>
                     <div className="col-md-4">
                         <img className="serviceListImage" src="/images/rocket-launch-67721_640.jpg" width="95%" alt="service_image" />
-                        <h2 className="serviceListTitle">Radiation Hardened Process Design Kit (PDK) Development and Assessment</h2>
+                        <h2 className="serviceListTitle">RADIATION HARDENED PDK</h2>
                     </div>
                     <div className="col-md-4">
                         <img className="serviceListImage" src="/images/space-station-60615_640.jpg" width="95%" alt="service_image" />
-                        <h2 className="serviceListTitle">Component Upset Rate Prediction</h2>
+                        <h2 className="serviceListTitle">COMPONENT ANALYSES</h2>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-md-4">
-                        <p className="serviceListText">Protecting the U.S., its friends and allies has never been more urgent. Our missile-defense systems aim to put the best technology up against the world's most pressing threats.</p>
+                        <p className="serviceListText">Electronic Design Automation (EDA) flow for complex integrated circuit designs.</p>
                     </div>
                     <div className="col-md-4">
-                        <p className="serviceListText">Protecting the U.S., its friends and allies has never been more urgent. Our missile-defense systems aim to put the best technology up against the world's most pressing threats.</p>
+                        <p className="serviceListText">Process Design Kit (PDK) developemnt and assessment for radiation hardened designs.</p>
                     </div>
                     <div className="col-md-4">
-                        <p className="serviceListText">Protecting the U.S., its friends and allies has never been more urgent. Our missile-defense systems aim to put the best technology up against the world's most pressing threats.</p>
+                        <p className="serviceListText">Single event rate predictions, total ionizing and non-ionizing dose impact.</p>
                     </div>
                 </div>
-                <div className="row serviceRow">
+                <div className="row serviceRow2">
                     <div className="col-md-4">
                         <img className="serviceListImage" src="/images/raisting-3930778_640.jpg" width="95%" alt="service_image" />
-                        <h2 className="serviceListTitle">Radiation Induced Upset Mitigation & Soft Error Analysis</h2>
+                        <h2 className="serviceListTitle">RADIATION INDUCED UPSET MITIGATION</h2>
                     </div>
                     <div className="col-md-4">
                         <img className="serviceListImage" src="/images/rocket-launch-67721_640.jpg" width="95%" alt="service_image" />
-                        <h2 className="serviceListTitle">Radiation Testing and Component Analyses</h2>
+                        <h2 className="serviceListTitle">RADIATION TESTING</h2>
                     </div>
-                    {/* <div className="col-md-4">
-                        <img className="serviceListImage" src="/images/space-station-60615_640.jpg" width="95%" alt="service_image" />
-                        <h2 className="serviceListTitle">Radiation Testing and Component Analyses</h2>
-                    </div> */}
                 </div>
                 <div className="row">
                     <div className="col-md-4">
-                        <p className="serviceListText">Protecting the U.S., its friends and allies has never been more urgent. Our missile-defense systems aim to put the best technology up against the world's most pressing threats.</p>
+                        <p className="serviceListText">Mitigation techniques for radiation-induced upsets in devices and circuits.</p>
                     </div>
                     <div className="col-md-4">
-                        <p className="serviceListText">Protecting the U.S., its friends and allies has never been more urgent. Our missile-defense systems aim to put the best technology up against the world's most pressing threats.</p>
+                        <p className="serviceListText">Heavy ion, proton, neutron, and gamma ray radiation test preparation, execution, and reporting.</p>
                     </div>
-                    {/* <div className="col-md-4">
-                        <p className="serviceListText">Protecting the U.S., its friends and allies has never been more urgent. Our missile-defense systems aim to put the best technology up against the world's most pressing threats.</p>
-                    </div> */}
                 </div>
             </div>
             <nav className="sticky-bottom">

@@ -72,6 +72,9 @@
 .serviceRow{
     margin-top: 60px;
 }
+.serviceRow2{
+    margin-top: 40px;
+}
 .serviceListTitle{
     font-family: Nunito Sans;
     font-style: normal;
@@ -80,7 +83,7 @@
     line-height: 34px;
     text-transform: uppercase;
     color: #000000;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .serviceListText{
     font-family: Nunito Sans;
