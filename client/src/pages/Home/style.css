@@ -10,7 +10,8 @@
     top: 74px; 
 }
 .home{
-  color: #20242B;
+  /* color: #20242B; */
+  color: rgba(50, 50, 50, 0.9);
   position:absolute; 
   width: 100%;
 }
@@ -22,22 +23,26 @@
   /* font-style: normal; */
   font-weight: 600;
   font-size: 58px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 .homeBannerText{
   /* font-style: normal;
   font-weight: normal; */
   font-size: 28px;
   /* width: 50%; */
-  color: rgba(32, 36, 43, 0.9);
+  /* color: rgba(32, 36, 43, 0.9); */
+  color: rgb(66, 66, 66, .9);
 }
 .contactUsBtn{
   position: relative;
   left:-15px;
-  top: 100px;
+  top: 110px;
   background-color: #099BCA;
-  padding: .4rem 1rem;
+  font-weight: 600;
+  font-size: medium;
+  padding: .75rem 1.5rem;
   border: white;
+  border-radius: 20px;
 }
 .homeBottom{
   position: relative;
