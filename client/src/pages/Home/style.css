@@ -40,9 +40,10 @@
   background-color: #099BCA;
   font-weight: 600;
   font-size: medium;
-  padding: .75rem 1.5rem;
+  padding: 0 15px;
   border: white;
   border-radius: 20px;
+  height: 40px;
 }
 .homeBottom{
   position: relative;
