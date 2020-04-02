@@ -70,6 +70,7 @@
 @media only screen and (max-width: 600px) {
   .homeTop{
     background: url("/images/satellite-1030779_1600x525crop.jpg");
+    filter:brightness(115%);
     background-size: cover;
     background-position-x: 490px;
     height: 75vw;
@@ -105,7 +106,7 @@
     top: 60px;
   }
   .homeTitle{
-    font-size: 30px;
+    font-size: 32px;
   }
   .homeText{
     /* margin-top: 25px; */
