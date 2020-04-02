@@ -19,22 +19,22 @@ class Navbar extends React.Component {
                             <ul className="navbar-nav">
                                 <Link smooth to="/home">
                                     <li className={isActive === "/home" ? "active nav-item" : "nav-item"}>
-                                        <a href="/home" className="nav-link">Home</a>
+                                        <div href="/home" id="navHome" className="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">Home</div>
                                     </li>
                                 </Link>
                                 <Link smooth to="/about">
                                     <li className={isActive === "/about" ? "active nav-item" : "nav-item"}>
-                                        <a href="/about" className="nav-link">About</a>
+                                        <div href="/about" id="navAbout" className="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">About</div>
                                     </li>
                                 </Link>
                                 <Link smooth to="/service">
                                     <li className={isActive === "/service" ? "active nav-item" : "nav-item"}>
-                                        <a href="/service" className="nav-link">Services</a>
+                                        <div href="/service" id="navService" className="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">Services</div>
                                     </li>
                                 </Link>
                                 <Link smooth to="/contact">
                                     <li className={isActive === "/contact" ? "active nav-item" : "nav-item"}>
-                                        <a href="/contact" className="nav-link" id="navContact">Contact</a>
+                                        <div href="/contact" id="navContact" className="nav-link" id="navContact" data-toggle="collapse" data-target=".navbar-collapse.show">Contact</div>
                                     </li>
                                 </Link>
                             </ul>

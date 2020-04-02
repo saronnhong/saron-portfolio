@@ -67,5 +67,61 @@
   color: #626365;
 }
 
+@media only screen and (max-width: 600px) {
+  .homeTop{
+    background: url("/images/satellite-1030779_1600x525crop.jpg");
+    background-size: cover;
+    background-position-x: 490px;
+    height: 75vw;
+    top: 35px; 
+  }
+  .bannerContainer{
+    margin-left: 5px;
+    top: 37px;
+  }
+  .homeBanner{
+    color: rgb(41, 41, 41);
+    font-weight: 600;
+    font-size: 36px;
+  }
+  .homeBannerText{
+    font-size: 18px;
+    width: 75vw;
+    color: rgb(41, 41, 41,.9);
+  }
+  .contactUsBtn{
+    position: relative;
+    left:10px;
+    top: 30px;
+    background-color: #099BCA;
+    font-weight: 600;
+    font-size: medium;
+    padding: 0 15px;
+    border: white;
+    border-radius: 20px;
+    height: 40px;
+  }
+  .homeBottom{
+    top: 60px;
+  }
+  .homeTitle{
+    font-size: 36px;
+  }
+  .homeText{
+    /* margin-top: 25px; */
+    font-size: 16px;
+    margin: 25px 5px;
+    line-height: 1.8;
+  }
+}
+
+@media only screen and (min-width: 601px)and (max-width: 1000px) {
+  .navBarLogo{
+      font-size: 28px;
+  }
+  .nav-link{
+      font-size: 14px;
+  }
+}
   
 
