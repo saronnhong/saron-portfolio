@@ -8,10 +8,10 @@ class Navbar extends React.Component {
         let isActive = this.props.location.pathname;
         console.log(isActive);
         return (
-            <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top navClass">
+            <nav className="navbar navbar-expand-md navbar-light bg-light fixed-top navClass">
                 <div className="container navClass">
                     <div href="/home" className="navbar-nav mr-auto navBarLogo">Milanowski & Associates, Inc.</div>
-                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="my-2 my-lg-0">

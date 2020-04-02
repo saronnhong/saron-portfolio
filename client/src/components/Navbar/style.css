@@ -12,10 +12,7 @@
     color: rgb(66, 66, 66);
     font-family: 'Poppins', sans-serif;
 }
-#navBarLogo2{
-    font-weight: 400;
-    font-family: 'Poppins', sans-serif;
-}
+
 .navBarLogo:hover{
     color: #141414;
 }
@@ -50,3 +47,23 @@ a:link{
     background-color: #F7F8F9 !important;
     /* background-color: cornflowerblue !important; */
 }
+@media only screen and (max-width: 600px) {
+    .navBarLogo{
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    .nav-link{
+        font-size: 12px;
+        width: 100vw;
+        text-align: center;
+    }
+  }
+
+  @media only screen and (min-width: 601px)and (max-width: 1000px) {
+    .navBarLogo{
+        font-size: 28px;
+    }
+    .nav-link{
+        font-size: 14px;
+    }
+  }
