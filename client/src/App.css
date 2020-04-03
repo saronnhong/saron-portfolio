@@ -2,13 +2,3 @@
     font-family: 'Nunito Sans', sans-serif;
     
 }
-.sticky-bottom{
-    padding: 20px;
-    color: rgb(66, 66, 66);
-    text-align: center;
-    background-color: #F7F8F9;
-    /* background-color: hotpink; */
-    width: 100%;
-    position: relative;
-    bottom: -20vh;
-}

@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../../components/Footer";
 import "./style.css";
 
 function Service() {
@@ -78,9 +79,7 @@ function Service() {
                     </div>
                 </div>
             </div>
-            <nav className="sticky-bottom">
-                <a>© 2020 Milanowski & Associates, Inc. All Rights Reserved.</a>
-            </nav>
+            <Footer />
         </div>
     );
 }

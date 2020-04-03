@@ -56,3 +56,82 @@
 .contactDetails:hover{
     color: #2e2f30;
 }
+
+@media only screen and (max-width: 349px) {
+    .aboutUsTitle{
+      background: url("/images/openstreet_contact_banner_small.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 75vw;
+      top: 35px; 
+    }
+    .contactPage{
+        top: 60px;
+    }
+    .contactTitle{
+        font-size: 28px;
+    }
+    .contactContent{
+        top: 20px;
+    }
+    .ourOffice{
+        font-size: 24px;
+    }
+    .contactUs{
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    
+  }
+  @media only screen and (min-width: 350px) and (max-width: 568px) {
+    .aboutUsTitle{
+        background: url("/images/openstreet_contact_banner_small.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 75vw;
+        top: 35px; 
+      }
+      .contactPage{
+          top: 60px;
+      }
+      .contactTitle{
+          font-size: 28px;
+      }
+      .contactContent{
+          top: 20px;
+      }
+      .ourOffice{
+          font-size: 24px;
+      }
+      .contactUs{
+          font-size: 24px;
+          margin-top: 20px;
+      }
+  }
+  
+  @media only screen and (min-width: 569px)and (max-width: 1000px) {
+    .aboutUsTitle{
+        background: url("/images/openstreet_contact_banner_small.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 75vw;
+        top: 35px; 
+      }
+      .contactPage{
+          top: 60px;
+      }
+      .contactTitle{
+          font-size: 28px;
+      }
+      .contactContent{
+          top: 20px;
+      }
+      .ourOffice{
+          font-size: 24px;
+      }
+      .contactUs{
+          font-size: 24px;
+          margin-top: 20px;
+      }
+    
+  }

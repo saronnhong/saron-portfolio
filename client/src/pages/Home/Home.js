@@ -2,6 +2,7 @@ import React, { Component } from "react";
 // import { HashLink as Link } from 'react-router-hash-link';
 import { HashLink as Link } from 'react-router-hash-link';
 import "./style.css";
+import Footer from "../../components/Footer";
 
 
 class Home extends Component {
@@ -28,11 +29,13 @@ class Home extends Component {
                                 <p className="homeText">For more than eleven years Milanowski & Associates, Inc. has been collaborating with Government and Commercial entities to ensure the successful development and production of the latest radiation hardened technologies. With courageous entrepreneurial rigor and unwavering commitment, we advance the boundaries of science and engineering. We strive to make a difference in the world. Contact us today for a consultation.</p>
                             </div>
                         </div>
-                        <nav className="sticky-bottom">
+                        {/* <nav className="sticky-bottom">
                             <a>© 2020 Milanowski & Associates, Inc. All Rights Reserved.</a>
-                        </nav>
+                        </nav> */}
                     </div>
+                    <Footer />
                 </div>
+                
             </div>
 
 
