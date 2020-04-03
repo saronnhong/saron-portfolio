@@ -1,33 +1,3 @@
-/* .serviceBox{
-    background-color: goldenrod;
-    width: 100%;
-    height: 300px;
-    
-}
-.serviceBox:focus{
-    background-color: goldenrod;
-}
-.serviceBox2:focus{
-    background-color: rgba(10,10,10,.9);
-}
-
-.serviceBox2{
-    background-color: rgba(10,10,10,.9);
-    width: 100%;
-    height: 300px;
-    color: whitesmoke;
-    
-}
-.buttonTitle{
-    font-size: large;
-    font-weight: bolder;
-}
-.buttonText{
-    font-size: small; 
-}
-.serviceItems{
-    margin-bottom: 0px;
-} */
 .serviceBanner{
     /* background: linear-gradient(to right, rgba(255, 255, 255, 0.2) 0.35%, rgba(255, 255, 255, 0) 94.53%), url("/images/satellite-1030779_1600x525crop.jpg"); */
     background: url("/images/spacex-VBNb52J8Trk-unsplash_crop.jpg");
@@ -96,3 +66,70 @@
     font-size: 16px;
     color: #626365;
 }
+@media only screen and (max-width: 349px) {
+    .serviceBanner{
+      background: url("/images/spacex-VBNb52J8Trk-unsplash_small.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 75vw;
+      top: 35px; 
+    }
+    .whatWeDo{
+        top: 55vw;
+        font-size: 28px;
+    }
+    .serviceContent{
+        position: relative;
+        top: 60px;
+    }
+    .serviceTitle{
+        font-size: 28px;
+      }
+    
+    
+    
+  }
+  @media only screen and (min-width: 350px) and (max-width: 568px) {
+    .serviceBanner{
+        background: url("/images/spacex-VBNb52J8Trk-unsplash_small.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 75vw;
+        top: 35px; 
+      }
+      .whatWeDo{
+          top: 55vw;
+          font-size: 28px;
+      }
+      .serviceContent{
+          position: relative;
+          top: 60px;
+      }
+      .serviceTitle{
+          font-size: 28px;
+        }
+    
+  }
+  
+  @media only screen and (min-width: 569px)and (max-width: 1000px) {
+    .serviceBanner{
+        background: url("/images/spacex-VBNb52J8Trk-unsplash_small.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 75vw;
+        top: 35px; 
+      }
+      .whatWeDo{
+          top: 65vw;
+          font-size: 28px;
+      }
+      .serviceContent{
+          position: relative;
+          top: 60px;
+      }
+      .serviceTitle{
+          font-size: 28px;
+        }
+    
+    
+  }

@@ -37,3 +37,70 @@
     color: #626365;
     line-height: 1.4;
 }
+@media only screen and (max-width: 349px) {
+    .aboutBanner{
+      background: url("/images/astronaut_about_small.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 75vw;
+      top: 35px; 
+    }
+    .whoWeAre{
+        top: 55vw;
+        font-size: 28px;
+        color: rgba(255, 255, 255, 0.9);
+    }
+    .aboutContent{
+        top: 60px;
+        height: 50vh;
+    }
+    .aboutTitle{
+        font-size: 28px;
+    }
+    
+    
+  }
+  @media only screen and (min-width: 350px) and (max-width: 568px) {
+    .aboutBanner{
+        background: url("/images/astronaut_about_small.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 75vw;
+        top: 35px; 
+      }
+      .whoWeAre{
+        top: 55vw;
+        font-size: 28px;
+        color: rgba(255, 255, 255, 0.9);
+    }
+      .aboutContent{
+          top: 60px;
+          height: 50vh;
+      }
+      .aboutTitle{
+          font-size: 28px;
+      }
+  }
+  
+  @media only screen and (min-width: 569px)and (max-width: 1000px) {
+    .aboutBanner{
+        background: url("/images/astronaut_about_small.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 75vw;
+        top: 35px; 
+      }
+      .whoWeAre{
+        top: 65vw;
+        font-size: 28px;
+        color: rgba(255, 255, 255, 0.9);
+    }
+      .aboutContent{
+          top: 60px;
+          height: 50vh;
+      }
+      .aboutTitle{
+          font-size: 28px;
+      }
+    
+  }
