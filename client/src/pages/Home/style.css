@@ -67,13 +67,12 @@
   color: #626365;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 349px) {
   .homeTop{
-    /* background: url("/images/satellite-1030779_1600x525crop.jpg"); */
-    /* filter:brightness(115%); */
-    background: linear-gradient(rgba(20,20,20, 0.5), rgba(20,20,20, 0.5)), url("/images/satellite-1030779_1600x525crop.jpg");
+    background: linear-gradient(rgba(20,20,20, 0.5), rgba(20,20,20, 0.5)), url("/images/satellite-1030779_1920_small.jpg");
     background-size: cover;
-    background-position-x: 490px;
+    background-position: center;
+    /* background-position-x: 400px; */
     height: 75vw;
     top: 35px; 
   }
@@ -84,16 +83,16 @@
   .homeBanner{
     color: rgb(220, 220, 220);
     font-weight: 600;
-    font-size: 36px;
+    font-size: 28px;
   }
   .homeBannerText{
-    font-size: 18px;
+    font-size: 14px;
     width: 75vw;
     color: rgb(220, 220, 220, .9);
   }
   .contactUsBtn{
     position: relative;
-    left:10px;
+    left: 5px;
     top: 45px;
     background-color: #099BCA;
     font-weight: 600;
@@ -110,20 +109,93 @@
     font-size: 32px;
   }
   .homeText{
-    /* margin-top: 25px; */
     font-size: 16px;
     margin: 25px 5px;
-    /* line-height: 1.8; */
+  }
+}
+@media only screen and (min-width: 350px) and (max-width: 568px) {
+  .homeTop{
+    background: linear-gradient(rgba(20,20,20, 0.5), rgba(20,20,20, 0.5)), url("/images/satellite-1030779_1920_small.jpg");
+    background-size: cover;
+    background-position: center;
+    /* background-position-x: 490px; */
+    height: 75vw;
+    top: 35px; 
+  }
+  .bannerContainer{
+    margin-left: 5px;
+    /* top: 45px; */
+    top: 12vw;
+  }
+  .homeBanner{
+    color: rgb(220, 220, 220);
+    font-weight: 600;
+    font-size: 36px;
+  }
+  .homeBannerText{
+    font-size: 18px;
+    width: 75vw;
+    color: rgb(220, 220, 220, .9);
+  }
+  .contactUsBtn{
+    position: relative;
+    left:10px;
+    /* top: 45px; */
+    top: 12vw;
+    background-color: #099BCA;
+    font-weight: 600;
+    font-size: medium;
+    padding: 0 15px;
+    border: white;
+    border-radius: 20px;
+    height: 40px;
+  }
+  .homeBottom{
+    top: 60px;
+  }
+  .homeTitle{
+    font-size: 32px;
+  }
+  .homeText{
+    font-size: 16px;
+    margin: 25px 5px;
   }
 }
 
-@media only screen and (min-width: 601px)and (max-width: 1000px) {
+@media only screen and (min-width: 569px)and (max-width: 1000px) {
   .navBarLogo{
       font-size: 28px;
   }
   .nav-link{
       font-size: 14px;
   }
+  .homeTop{
+    background: linear-gradient(rgba(240,240,240, 0.1), rgba(240,240,240, 0.1)), url("/images/satellite-1030779_1600x525crop.jpg");
+    background-size: cover;
+    background-position-x: -300px;
+    top: 35px;
+    height: 50vw;
+  }
+  .bannerContainer{
+    top: 12vw;
+    width: 70vw;
+    margin-left: 10px;
+  }
+  .contactUsBtn{
+    left: 10px;
+    top: 12vw;
+  }
+  .homeBanner{
+    font-size: 38px;
+  }
+  .homeBannerText{
+    font-size: 24px;
+    
+  }
+  .homeBottom{
+    top: 10vw;
+  }
+  
 }
   
 

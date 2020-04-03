@@ -45,6 +45,10 @@ a:link{
     background-color: #F7F8F9 !important;
     /* background-color: cornflowerblue !important; */
 }
+.navbar-toggler{
+    border: none;
+    margin-right: 3px;
+}
 @media only screen and (max-width: 600px) {
     .navBarLogo{
         font-size: 18px;
