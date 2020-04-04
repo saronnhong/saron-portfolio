@@ -9,7 +9,7 @@
     font-size: 34px;
     color: rgb(66, 66, 66);
     font-family: 'Poppins', sans-serif;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
 .navBarLogo:hover{
@@ -48,8 +48,10 @@ a:link{
 }
 .navbar-toggler{
     border: none;
-    margin-right: 3px;
+    
 }
+
+
 @media only screen and (max-width: 600px) {
     .navBarLogo{
         font-size: 18px;
@@ -61,6 +63,7 @@ a:link{
         width: 100vw;
         text-align: center;
     }
+    
   }
 
   @media only screen and (min-width: 601px)and (max-width: 1000px) {
