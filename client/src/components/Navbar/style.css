@@ -59,7 +59,7 @@ a:link{
         padding: 15px 0;
     }
     .nav-link{
-        font-size: 12px;
+        font-size: 16px;
         width: 100vw;
         text-align: center;
     }
@@ -71,6 +71,8 @@ a:link{
         font-size: 28px;
     }
     .nav-link{
-        font-size: 14px;
+        font-size: 16px;
+        width: 100vw;
+        text-align: center;
     }
   }
