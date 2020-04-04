@@ -48,7 +48,7 @@ class Contact extends Component {
                             <div className="col-md-4">
                                 <h1 className="ourOffice">Our Office</h1>
                                 <div className="contactInfo">
-                                    <p><a className="contactDetails" href="https://www.google.com/maps/place/4980+N+Harbor+Dr,+San+Diego,+CA+92106/" target="_blank"><i className="fas fa-map-marker-alt"></i> 4980 North Harbor Drive #202<br></br>San Diego, CA 92106</a></p>
+                                    <p><a className="contactDetails" href="https://www.google.com/maps/place/4980+N+Harbor+Dr,+San+Diego,+CA+92106/" target="_blank" rel="noopener noreferrer"><i className="fas fa-map-marker-alt"></i> 4980 North Harbor Drive #202<br></br>San Diego, CA 92106</a></p>
                                     <p><a className="contactDetails" href="tel:619-865-2174"><i className="fa fa-phone"></i> 619.865.2174</a></p>
                                     <p><a className="contactDetails" href="mailto:milanowski@radhard.com"><i className="fa fa-envelope"></i> milanowski@radhard.com</a></p>
                                 </div>
@@ -69,11 +69,11 @@ class Contact extends Component {
                                         <input className="textFields" placeholder="Email Address" value={email.from}
                                             onChange={e => this.setState({ email: { ...email, from: e.target.value } })} />
                                     </p>
-                                    <div class="input-group full">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text">Message</span>
+                                    <div className="input-group full">
+                                        <div className="input-group-prepend">
+                                            <span className="input-group-text">Message</span>
                                         </div>
-                                        <textarea class="form-control" rows="7" aria-label="With textarea" value={email.text}
+                                        <textarea className="form-control" rows="7" aria-label="With textarea" value={email.text}
                                             onChange={e => this.setState({ email: { ...email, text: e.target.value } })}></textarea>
                                     </div>
                                     <button className="btn btn-primary emailSubmitBtn hvr-shadow" type="button" onClick={() => {

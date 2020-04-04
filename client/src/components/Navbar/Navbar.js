@@ -10,13 +10,14 @@ class Navbar extends React.Component {
         return (
             <nav className="navbar navbar-expand-md navbar-light bg-light fixed-top navClass">
                 <div className="container navClass">
-                    <Link smooth to="/">
-                        <div className="navbar-nav mr-auto navBarLogo">Milanowski & Associates, Inc.</div>
-                    </Link>
+                    
+                        <a href="home" className="navbar-nav mr-auto navBarLogo">Milanowski & Associates, Inc.</a>
+                    
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="my-2 my-lg-0">
+
                         <div className="collapse navbar-collapse " id="navbarNav">
                             <ul className="navbar-nav">
                                 <Link smooth to="/home">
@@ -36,7 +37,7 @@ class Navbar extends React.Component {
                                 </Link>
                                 <Link smooth to="/contact">
                                     <li className={isActive === "/contact" ? "active nav-item" : "nav-item"}>
-                                        <div href="/contact" id="navContact" className="nav-link" id="navContact" data-toggle="collapse" data-target=".navbar-collapse.show">Contact</div>
+                                        <div href="/contact" id="navContact" className="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">Contact</div>
                                     </li>
                                 </Link>
                             </ul>

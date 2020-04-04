@@ -18,7 +18,7 @@ class Home extends Component {
                                 <p className="homeBannerText">Engineering Services and Technology Development</p>
                             </div>
                             <Link to="/contact">
-                                <button type="button" class="btn btn-dark contactUsBtn">Contact Us</button>
+                                <button type="button" className="btn btn-dark contactUsBtn">Contact Us</button>
                             </Link>
                         </div>
                     </div>
