@@ -65,7 +65,8 @@ a:link{
         margin-left: 10vw;
     }
     .navbar-nav{
-        border-top: solid rgb(98,99,101, .8);
+        border-top: solid rgb(98,99,101, .7);
+        border-width: 1px;
     }
     /* .navbar-nav{
         background-color: rgb(98,99,101, .8);
