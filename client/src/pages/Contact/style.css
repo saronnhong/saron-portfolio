@@ -4,7 +4,7 @@
     width: 100%;  
 }
 .aboutUsTitle{
-    background: url("/images/openstreet_contact_banner.jpg");
+    background: url("/images/openstreet_contact_banner-min.jpg");
     background-size: cover;
     height: 33vw;
     position: relative;
@@ -59,7 +59,7 @@
 
 @media only screen and (max-width: 349px) {
     .aboutUsTitle{
-      background: url("/images/openstreet_contact_banner_small.jpg");
+      background: url("/images/openstreet_contact_banner_small-min.jpg");
       background-size: cover;
       background-position: center;
       height: 75vw;
@@ -85,7 +85,7 @@
   }
   @media only screen and (min-width: 350px) and (max-width: 568px) {
     .aboutUsTitle{
-        background: url("/images/openstreet_contact_banner_small.jpg");
+        background: url("/images/openstreet_contact_banner_small-min.jpg");
         background-size: cover;
         background-position: center;
         height: 75vw;
@@ -111,7 +111,7 @@
   
   @media only screen and (min-width: 569px)and (max-width: 1000px) {
     .aboutUsTitle{
-        background: url("/images/openstreet_contact_banner_small.jpg");
+        background: url("/images/openstreet_contact_banner_small-min.jpg");
         background-size: cover;
         background-position: center;
         height: 75vw;

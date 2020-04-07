@@ -1,6 +1,6 @@
 .serviceBanner{
     /* background: linear-gradient(to right, rgba(255, 255, 255, 0.2) 0.35%, rgba(255, 255, 255, 0) 94.53%), url("/images/satellite-1030779_1600x525crop.jpg"); */
-    background: url("/images/spacex-VBNb52J8Trk-unsplash_crop.jpg");
+    background: url("/images/spacex-VBNb52J8Trk-unsplash_crop-min.jpg");
     background-size: cover;
     height: 33vw;
     /* width:100%; */
@@ -68,7 +68,7 @@
 }
 @media only screen and (max-width: 349px) {
     .serviceBanner{
-      background: url("/images/spacex-VBNb52J8Trk-unsplash_small.jpg");
+      background: url("/images/spacex-VBNb52J8Trk-unsplash_small-min.jpg");
       background-size: cover;
       background-position: center;
       height: 75vw;
@@ -91,7 +91,7 @@
   }
   @media only screen and (min-width: 350px) and (max-width: 568px) {
     .serviceBanner{
-        background: url("/images/spacex-VBNb52J8Trk-unsplash_small.jpg");
+        background: url("/images/spacex-VBNb52J8Trk-unsplash_small-min.jpg");
         background-size: cover;
         background-position: center;
         height: 75vw;
@@ -113,7 +113,7 @@
   
   @media only screen and (min-width: 569px)and (max-width: 1000px) {
     .serviceBanner{
-        background: url("/images/spacex-VBNb52J8Trk-unsplash_small.jpg");
+        background: url("/images/spacex-VBNb52J8Trk-unsplash_small-min.jpg");
         background-size: cover;
         background-position: center;
         height: 75vw;

@@ -16,6 +16,9 @@ class Contact extends Component {
             confirmMsg: ''
         }
     }
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
     sendEmail = () => {
         fetch("/send-email", {
             method: 'POST',

@@ -1,6 +1,6 @@
 
 .homeTop{
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.2) 0.35%, rgba(255, 255, 255, 0) 94.53%), url("/images/satellite-1030779_1600x525crop.jpg");
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.2) 0.35%, rgba(255, 255, 255, 0) 94.53%), url("/images/satellite-1030779_1600x525crop-min.jpg");
     /* background: url("/images/satellite-1030779_1600x525crop.jpg"); */
     background-size: cover;
     height: 33vw;
@@ -45,6 +45,9 @@
   border-radius: 20px;
   height: 40px;
 }
+.contactUsBtn:hover{
+  background-color: rgb(5, 116, 153);
+}
 .homeBottom{
   position: relative;
   /* width: 100%; */
@@ -69,7 +72,7 @@
 
 @media only screen and (max-width: 349px) {
   .homeTop{
-    background: linear-gradient(rgba(20,20,20, 0.5), rgba(20,20,20, 0.5)), url("/images/satellite-1030779_1920_small.jpg");
+    background: linear-gradient(rgba(20,20,20, 0.5), rgba(20,20,20, 0.5)), url("/images/satellite-1030779_1920_small-min.jpg");
     background-size: cover;
     background-position: center;
     /* background-position-x: 400px; */
@@ -116,7 +119,7 @@
 }
 @media only screen and (min-width: 350px) and (max-width: 568px) {
   .homeTop{
-    background: linear-gradient(rgba(20,20,20, 0.5), rgba(20,20,20, 0.5)), url("/images/satellite-1030779_1920_small.jpg");
+    background: linear-gradient(rgba(20,20,20, 0.5), rgba(20,20,20, 0.5)), url("/images/satellite-1030779_1920_small-min.jpg");
     background-size: cover;
     background-position: center;
     /* background-position-x: 490px; */
@@ -171,7 +174,7 @@
       font-size: 14px;
   }
   .homeTop{
-    background: linear-gradient(rgba(240,240,240, 0.1), rgba(240,240,240, 0.1)), url("/images/satellite-1030779_1600x525crop.jpg");
+    background: linear-gradient(rgba(240,240,240, 0.1), rgba(240,240,240, 0.1)), url("/images/satellite-1030779_1600x525crop-min.jpg");
     background-size: cover;
     background-position-x: -300px;
     top: 35px;
