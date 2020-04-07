@@ -65,10 +65,13 @@ a:link{
         margin-left: 10vw;
     }
     .navbar-nav{
+        border-top: solid rgb(98,99,101, .8);
+    }
+    /* .navbar-nav{
         background-color: rgb(98,99,101, .8);
         margin: 0;
-    }
-    #navHome, #navAbout, #navService, #navContact{
+    } */
+    /* #navHome, #navAbout, #navService, #navContact{
         color: white;
     }
     
@@ -79,7 +82,7 @@ a:link{
     }
     .my-2{
         margin-top: 0px !important;
-    }
+    } */
     
     
   }
