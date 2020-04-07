@@ -81,7 +81,8 @@
     top: 45px;
   }
   .homeBanner{
-    color: rgb(220, 220, 220);
+    /* color: rgb(220, 220, 220); */
+    color: white;
     font-weight: 600;
     font-size: 28px;
   }
