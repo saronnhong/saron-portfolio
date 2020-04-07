@@ -52,6 +52,7 @@ a:link{
 }
 
 
+
 @media only screen and (max-width: 600px) {
     .navBarLogo{
         font-size: 18px;
@@ -61,8 +62,25 @@ a:link{
     .nav-link{
         font-size: 16px;
         width: 100vw;
-        text-align: center;
+        margin-left: 10vw;
     }
+    .navbar-nav{
+        background-color: rgb(98,99,101, .8);
+        margin: 0;
+    }
+    #navHome, #navAbout, #navService, #navContact{
+        color: white;
+    }
+    
+    .navbar-toggler:active{
+        background-color: rgb(98,99,101, .8);
+        padding-bottom: 20px;
+        margin: 0px;
+    }
+    .my-2{
+        margin-top: 0px !important;
+    }
+    
     
   }
 
