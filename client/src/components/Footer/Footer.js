@@ -5,7 +5,7 @@ function Footer() {
     
         return (
             <nav className="sticky-bottom">
-                <div>© 2020 Milanowski & Associates, Inc. All Rights Reserved.</div>
+                <div>© 2020 Saron Nhong All Rights Reserved.</div>
             </nav>
         );
     

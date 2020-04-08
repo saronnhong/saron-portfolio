@@ -4,36 +4,24 @@
     font-weight: 900;
 }
 
-.navBarLogo{
-    font-weight: 400;
-    font-size: 34px;
-    color: rgb(66, 66, 66);
-    font-family: 'Poppins', sans-serif;
-    /* text-decoration: none; */
-}
-
-.navBarLogo:hover{
-    color: #141414;
-}
-
 .nav-link{
+    text-decoration: none;
+    color: rgb(66, 66, 66);
     font-weight: 600;
     font-size: 16px;
+    font-family: 'Poppins', sans-serif;
     padding: 25px;
     margin: 0px 5px;
-    /* border: none;  */
     border: transparent solid 3px;
     -webkit-transition: color .3s, border .3s; 
     transition: linear color .3s, ease-in border .3s;
 }
 .nav-link:hover{
-    border-bottom: #099BCA solid 3px;
-    color: #099BCA !important;
+
+    border-bottom: rgb(238,238,238, .9) solid 3px;
+    color: rgb(238,238,238, .9) !important;
     font-weight: 600;
 }
-/* .nav-item:hover{
-    background-color: #099BCA;
-} */
 a:link{
     text-decoration: none;
 }
@@ -53,11 +41,7 @@ a:link{
 
 
 @media only screen and (max-width: 600px) {
-    .navBarLogo{
-        font-size: 18px;
-        margin-left: 3vw;
-        padding: 15px 0;
-    }
+    
     .nav-link{
         font-size: 16px;
         width: 100vw;
@@ -83,9 +67,9 @@ a:link{
   }
 
   @media only screen and (min-width: 601px)and (max-width: 1000px) {
-    .navBarLogo{
+    /* .navBarLogo{
         font-size: 24px;
-    }
+    } */
     .nav-link{
         font-size: 16px;
         /* width: 100vw; */

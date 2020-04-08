@@ -7,36 +7,24 @@ import Footer from "../../components/Footer";
 
 class Home extends Component {
     componentDidMount() {
-        window.scrollTo(0,0);
-      }
+        window.scrollTo(0, 0);
+    }
 
     render() {
         return (
-            <div>
-                <div className="home">
-                    <div className="homeTop">
-                        <div className="container">
-                            <div className="row bannerContainer">
-                                <h1 className="homeBanner">Survivable Space Systems</h1>
-                                <p className="homeBannerText">Engineering Services and Technology Development</p>
-                            </div>
-                            <Link to="/contact">
-                                <button type="button" className="btn btn-dark contactUsBtn">Contact Us</button>
-                            </Link>
-                        </div>
+            <div className="home">
+                <div className="container">
+                    <div className="homeContainer">
+                        <h1 className="homeHeader">I create amazing web apps.</h1>
+                        <p className="homeText">I am a full-stack web developer based in San Diego with an affinity for brilliant design. I enjoy my work to build creative and functional user experiences. My domain of expertise is in custom designed websites with excellent typography, beautiful layout, and strong information architecture. I always follow best practices of modern web development including responsive design, semantic markup, and equally accessible content. </p>
+                        <button type="button" className="btn btn-dark homeBtn">Let’s Collab!</button>
+                        <button type="button" className="btn btn-outline-dark homeBtn">View My Resume</button>
                     </div>
-                    <div className="homeBottom">
-                        <div className="container">
-                            <div className="">
-                                <h1 className="homeTitle">Milanowski. Engineering the Latest Radiation Hardened Technologies to Support Our Customers’ Space Missions.</h1>
-                                <p className="homeText">For more than eleven years Milanowski & Associates, Inc. has been collaborating with Government and Commercial entities to ensure the successful development and production of the latest radiation hardened technologies. With courageous entrepreneurial rigor and unwavering commitment, we advance the boundaries of science and engineering. We strive to make a difference in the world. Contact us today for a consultation.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <Footer />
                 </div>
-                
+                {/* <Footer /> */}
             </div>
+
+
 
 
         );
