@@ -24,11 +24,11 @@ class Navbar extends React.Component {
                                         <div href="/home" id="navHome" className="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">Home</div>
                                     </li>
                                 </Link>
-                                <Link smooth to="/about">
+                                {/* <Link smooth to="/about">
                                     <li className={isActive === "/about" ? "active nav-item" : "nav-item"}>
                                         <div href="/about" id="navAbout" className="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">About</div>
                                     </li>
-                                </Link>
+                                </Link> */}
                                 <Link smooth to="/portfolio">
                                     <li className={isActive === "/portfolio" ? "active nav-item" : "nav-item"}>
                                         <div href="/portfolio" id="navService" className="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">Portfolio</div>

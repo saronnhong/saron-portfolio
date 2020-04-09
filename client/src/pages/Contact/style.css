@@ -1,37 +1,46 @@
 .contact{
     color: #20242B;
+    background-color: #FF6161;
     position:absolute; 
-    width: 100%;  
-}
-.aboutUsTitle{
-    background: url("/images/openstreet_contact_banner-min.jpg");
-    background-size: cover;
-    height: 33vw;
-    position: relative;
-    top: 74px; 
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/images/shark_bw_80crop.svg");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: bottom;
+    background-size: 35vw;
 }
 .contactPage{
     position: relative;
-    top: 125px;
+    top: 15vh;
     text-align: left;
     height: 80vh;
 }
 .contactTitle{
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 140%;
+    color: #EEEEEE;
+}
+.contactText{
+    font-family: Poppins;
     font-style: normal;
-    font-weight: lighter; 
-    font-size: 58px;
-    color: #099BCA;
-    text-align: center;
-    position: relative;
-    /* top: 25px; */
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    color: rgb(20,20,20, .8);
+    width: 45vw;
 }
 .contactContent{
+
     position: relative;
-    top: 60px;
+    top: 5vh;
 }
 .textFields{
     width: 100%;
     padding: 6px;
+    
 }
 #confirmMessage{
     background-color: #E38D58;
@@ -46,15 +55,20 @@
 }
 .contactInfo{
     margin-top: 20px;
-    color: #626365;
-    
+    /* color: #626365; */
+    color: #EEEEEE;
 }
 .contactDetails{
     text-decoration: none;
-    color: #626365;
+    /* color: #626365; */
+    color: #EEEEEE;
 }
 .contactDetails:hover{
     color: #2e2f30;
+}
+.ourOffice, .contactUs{
+    font-weight: 800;
+    color: rgb(20,20,20, .85);
 }
 
 @media only screen and (max-width: 349px) {
