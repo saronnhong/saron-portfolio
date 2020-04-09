@@ -1,0 +1,71 @@
+.portfolio{
+    background-color: #FFAD61;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/images/flamingo.svg");
+    background-repeat: no-repeat;
+    background-position-x: 67vw;
+    background-position-y: bottom;
+    background-size: 45vw;
+}
+.portContainer{
+    margin-top: 12vh;
+}
+.portHeader{
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 140%;
+    color: #EEEEEE;
+}
+.portText1{
+    margin-top: 15vh;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    /* width: 45vw; */
+}
+.portText2{
+    /* margin-bottom: 20px; */
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: rgb(20,20,20, .8);
+    /* width: 45vw; */
+}
+
+.projectImage{
+    margin: 15px 0;
+    /* width: 47%; */
+    width: 100%;
+}
+.fa-angle-right, .fa-angle-left{
+    color: rgb(20,20,20, .85);
+    margin: 0 3px ;
+}
+.fa-angle-right:hover, .fa-angle-left:hover, .projectControl:hover{
+    color: rgba(20,20,20);
+}
+
+.projectControl{
+    font-weight: 600;
+    color: rgb(20,20,20, .6);
+    font-family: Poppins;
+   
+
+}
+.projectNext{
+    text-align: end;
+}
+.projectCenter{
+    text-align: center;
+}
+
+
+
+
+

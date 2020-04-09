@@ -1,11 +1,83 @@
-.nav-background {
-    opacity: .9;
+
+
+.active {
+    font-weight: 900;
 }
 
-/* Used to override default settings */
-nav {
-    /* background-color: rgb(255,255,255, 0); */
-    font-family: 'Space Mono';
-    color: white;
+.nav-link{
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+    margin: 0px 5px;
+    border: transparent solid 3px;
+    -webkit-transition: color .2s, border .2s; 
+    transition: linear color .2s, ease-in border .2s;
+}
+.nav-link:hover{
+    border-bottom: rgb(238,238,238, .9) solid 2px;
+    color: rgb(238,238,238, .9) !important;
+    font-weight: 400;
+}
+a:link{
+    text-decoration: none;
 }
 
+.navbar{
+    padding: 0px;
+}
+/* .bg-light{
+    background-color: #F7F8F9 !important;
+    background-color: cornflowerblue !important;
+} */
+.navbar-toggler{
+    border: none;
+}
+.navImg{
+    padding-top: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    .nav-link{
+        font-size: 16px;
+        width: 100vw;
+        
+    }
+    .navbar-nav{
+        border-top: solid rgb(98,99,101, .7);
+        border-width: 1px;
+    }
+    #navService, #navHome, #navAbout, #navContact{
+        padding: 20px 25px;
+    }
+    /* .navbar-toggler{
+        margin-top: 10px;
+        margin-bottom: 0px;
+        padding-bottom: 12px;
+    } */
+    .mt-2, .my-2 {
+        margin-top: 0px !important;
+    }
+    
+    
+  }
+
+  @media only screen and (min-width: 601px)and (max-width: 1000px) {
+    /* .navBarLogo{
+        font-size: 24px;
+    } */
+    .nav-link{
+        font-size: 16px;
+        /* width: 100vw; */
+        text-align: center;
+        margin: 0px 3px;
+        padding: 30px;
+    }
+    .mb-2, .my-2 {
+        margin-bottom: 0px!important;
+    }
+  }

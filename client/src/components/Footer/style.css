@@ -1,0 +1,10 @@
+.sticky-bottom{
+    padding: 20px;
+    margin-top: 250px;
+    color: rgb(66, 66, 66);
+    text-align: center;
+    /* background-color: #F7F8F9; */
+    background-color: transparent;
+    width: 100%;
+}
+

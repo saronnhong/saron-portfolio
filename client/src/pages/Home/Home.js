@@ -1,45 +1,30 @@
 import React, { Component } from "react";
+// import { HashLink as Link } from 'react-router-hash-link';
+import { HashLink as Link } from 'react-router-hash-link';
 import "./style.css";
-// import M from "materialize-css";
+import Footer from "../../components/Footer";
 
 
 class Home extends Component {
-    // componentDidMount() {
-    //     M.Parallax.init(this.Parallax1);
-    //     M.Parallax.init(this.Parallax2);
-    // }
-    render() {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
 
+    render() {
         return (
-            <div className="home">
-                <div className="background-overlay container">
-                    <div className="text-container">
-                        <h2>SURVIVABLE SPACE SYSTEMS</h2>
-                        <h5>Engineering Services and Technology Development</h5>
+            <div className="home ">
+                <div className="container">
+                    <div className="homeContainer">
+                        <h1 className="homeHeader">I create amazing web apps.</h1>
+                        <p className="homeText">I am a full-stack web developer based in San Diego with an affinity for brilliant design. I enjoy my work to build creative and functional user experiences. My domain of expertise is in custom designed websites with excellent typography, beautiful layout, and strong information architecture. I always follow best practices of modern web development including responsive design, semantic markup, and equally accessible content. </p>
+                        <button type="button" className="btn btn-dark homeBtn">Let’s Collab!</button>
+                        <button type="button" className="btn btn-outline-dark homeBtn">View My Resume</button>
                     </div>
                 </div>
-
+                {/* <Footer /> */}
             </div>
 
-            //some parallax test code
-            // <div>
-            //     <div ref={Parallax => {
-            //         this.Parallax1 = Parallax;
-            //     }} className="parallax-container">
-            //         <div className="parallax imgEdit"><img src="sunrise-1756274_1280.jpg"/></div>
-            //     </div>
-            //     <div className="section white">
-            //         <div className="row container">
-            //             <h1 className="tracking-in-expand">SURVIVABLE SPACE SYSTEMS</h1>
-            //             <h5>Engineering Services and Technology Development</h5>
-            //         </div>
-            //     </div>
-            //     <div ref={Parallax => {
-            //         this.Parallax2 = Parallax;
-            //     }} className="parallax-container">
-            //         <div className="parallax imgEdit"><img src="sunrise-1756274_1280.jpg" /></div>
-            //     </div>
-            // </div>
+
 
 
         );
