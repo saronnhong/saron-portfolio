@@ -44,26 +44,43 @@
     width: 100%;
     box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, .25);
 }
+.projectImage_modal{
+    margin: 15px 0;
+    /* width: 47%; */
+    width: 70%;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, .25);
+}
+.projectImageContainer, .projectImageTitle{
+    width: 100%;
+    text-align: center;
+}
 .fa-angle-right, .fa-angle-left{
     color: rgb(20,20,20, .85);
     margin: 0 3px ;
 }
-.fa-angle-right:hover, .fa-angle-left:hover, .projectControl:hover{
-    color: rgba(20,20,20);
+.fa-angle-right:hover, .fa-angle-left:hover, .projectControl:hover, #visitLink:hover{
+    /* color: rgba(20,20,20, .6); */
+    color: #EEEEEE;
 }
 
 .projectControl{
     font-weight: 600;
-    color: rgb(20,20,20, .6);
+    color: rgb(20,20,20, .8);
     font-family: Poppins;
+    cursor: pointer;
+    margin-top: 15px;
    
 
 }
 .projectNext{
     text-align: end;
+    
 }
 .projectCenter{
     text-align: center;
+}
+#visitLink{
+    color: rgb(20,20,20, .8);
 }
 
 .card{
@@ -77,4 +94,8 @@
 }
 .card-body{
     padding: .75rem;
+}
+.modalBold{
+    color: rgb(255,0,0, .9);
+    font-weight: 600;
 }
