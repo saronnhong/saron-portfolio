@@ -2,7 +2,7 @@ import React, { Component } from "react";
 // import { HashLink as Link } from 'react-router-hash-link';
 import { HashLink as Link } from 'react-router-hash-link';
 import "./style.css";
-import Footer from "../../components/Footer";
+// import Footer from "../../components/Footer";
 
 
 class Home extends Component {
