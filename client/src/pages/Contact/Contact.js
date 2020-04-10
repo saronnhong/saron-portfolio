@@ -47,7 +47,7 @@ class Contact extends Component {
                 <div>
                     <div className="contactPage container">
                         <h1 className="contactTitle" >Let’s get in touch.</h1>
-                        <p className="contactText">Longing to have a truly unique and memorable website to call your own? I love exploring fresh artistic directions, experimenting with new technologies, and bringing real graphic design to the web. So what are you waiting for? Let’s make it happen!</p>
+                        <p className="contactText">Longing to have a truly unique and memorable web app to call your own? I love exploring fresh artistic directions, experimenting with new technologies, and collaborating with others. So what are you waiting for? Let’s make it happen!</p>
                         {/* <h1 className="contactTitle">Get In Touch With Us</h1> */}
                         <div className="row contactContent">
                             <div className="col-md-4">
@@ -83,7 +83,7 @@ class Contact extends Component {
                                         <textarea className="form-control" rows="7" aria-label="With textarea" value={email.text}
                                             onChange={e => this.setState({ email: { ...email, text: e.target.value } })}></textarea>
                                     </div>
-                                    <button className="btn btn-dark emailSubmitBtn hvr-shadow" type="button" onClick={() => {
+                                    <button className="btn btn-dark emailSubmitBtn hvr-shadow hvr-sweep-to-right-sendbtn" type="button" onClick={() => {
                                         this.sendEmail();
                                     }}> Send Message</button>
                                 </form>
