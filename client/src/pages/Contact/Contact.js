@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-// import Footer from "../../components/Footer";
 import "./style.css";
-
 
 // Allow less secure apps: ON in gmail settings to be able to send email
 class Contact extends Component {
@@ -43,17 +41,14 @@ class Contact extends Component {
 
         return (
             <div className="contact">
-                {/* <div className="aboutUsTitle"></div> */}
                 <div>
                     <div className="contactPage container">
                         <h1 className="contactTitle" >Let’s get in touch.</h1>
                         <p className="contactText">Longing to have a truly unique and memorable web app to call your own? I love exploring fresh artistic directions, experimenting with new technologies, and collaborating with others. So what are you waiting for? Let’s make it happen!</p>
-                        {/* <h1 className="contactTitle">Get In Touch With Us</h1> */}
                         <div className="row contactContent">
                             <div className="col-md-4">
                                 <h1 className="ourOffice">Contact</h1>
                                 <div className="contactInfo">
-                                    {/* <p><a className="contactDetails" href="https://www.google.com/maps/place/4980+N+Harbor+Dr,+San+Diego,+CA+92106/" target="_blank" rel="noopener noreferrer"><i className="fas fa-map-marker-alt"></i> 4980 North Harbor Drive #202<br></br>San Diego, CA 92106</a></p> */}
                                     <p><a className="contactDetails" href="tel:209-598-4517"><i className="fa fa-phone"></i> 209.598.4517</a></p>
                                     <p><a className="contactDetails" href="mailto:saronnhong@gmail.com"><i className="fa fa-envelope"></i> saronnhong@gmail.com</a></p>
                                     <p><a className="contactDetails" href="https://linkedin.com/in/saronnhong" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> linkedin.com/in/saronnhong</a></p>
@@ -89,15 +84,9 @@ class Contact extends Component {
                                 </form>
                             </div>
                         </div>
-                        {/* <div className="row">
-                            <Footer />
-                        </div> */}
                     </div>
-
                 </div>
-
             </div>
-
         );
     }
 }

@@ -17,14 +17,14 @@
     height: 80vh;
 }
 .contactTitle{
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 48px;
     line-height: 140%;
     color: #EEEEEE;
 }
 .contactText{
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -55,12 +55,10 @@
 }
 .contactInfo{
     margin-top: 20px;
-    /* color: #626365; */
     color: #EEEEEE;
 }
 .contactDetails{
     text-decoration: none;
-    /* color: #626365; */
     color: #EEEEEE;
 }
 .contactDetails:hover{
@@ -69,9 +67,6 @@
 .ourOffice, .contactUs{
     font-weight: 800;
     color: rgb(20,20,20, .85);
-}
-body {
-    background-color: #FF6161;
 }
 
 /* Sweep To Right */
@@ -143,7 +138,7 @@ body {
   }
   @media only screen and (min-width: 350px) and (max-width: 568px) {
       .contact{
-        height: 160vh;
+        height: 165vmax;
         background-image: none;
         background-repeat: repeat;
       }
@@ -168,22 +163,20 @@ body {
       }
   }
   
-  @media only screen and (min-width: 569px)and (max-width: 1000px) {
-    /* .aboutUsTitle{
-        background: url("/images/openstreet_contact_banner_small-min.jpg");
-        background-size: cover;
-        background-position: center;
-        height: 75vw;
-        top: 35px; 
-      } */
+  @media only screen and (min-width: 569px)and (max-width: 900px) {
       .contact{
-        height: 100vh;
+        height: 140vmax;
+        background-image: none;
+        background-repeat: repeat;
     }
       .contactPage{
-          top: 15vh;
+          top: 75px;
       }
       .contactTitle{
           font-size: 28px;
+      }
+      .contactText{
+          width: 100%;
       }
       .contactContent{
           top: 20px;

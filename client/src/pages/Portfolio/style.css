@@ -13,7 +13,7 @@
     margin-top: 12vh;
 }
 .portHeader{
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 48px;
     line-height: 140%;
@@ -21,32 +21,27 @@
 }
 .portText1{
     margin-top: 10vh;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
-    /* width: 45vw; */
 }
 .portText2{
-    /* margin-bottom: 20px; */
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 160%;
     color: rgb(20,20,20, .8);
-    /* width: 45vw; */
 }
 
 .projectImage{
     margin: 15px 0;
-    /* width: 47%; */
     width: 100%;
     box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, .25);
 }
 .projectImage_modal{
     margin: 15px 0;
-    /* width: 47%; */
     width: 70%;
     box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, .25);
 }
@@ -59,14 +54,13 @@
     margin: 0 3px ;
 }
 .fa-angle-right:hover, .fa-angle-left:hover, .projectControl:hover, #visitLink:hover{
-    /* color: rgba(20,20,20, .6); */
     color: #EEEEEE;
 }
 
 .projectControl{
     font-weight: 600;
     color: rgb(20,20,20, .8);
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     cursor: pointer;
     margin-top: 15px;
    
@@ -92,13 +86,15 @@
 }
 @media only screen and (max-width: 349px) {
     .portfolio{
-        height: 140vh;
+        height: 110vh;
+        background-image: none;
+        background-repeat: repeat;
     }
     .portContainer{
-        margin-top: 10vh;
+        margin-top: 12vh;
     }
     .portHeader{
-        font-size: 36px;
+        font-size: 32px;
     }
     .portText1{
         margin-top: 4vh;
@@ -117,13 +113,16 @@
         bottom: 76px;
     }
     .projectImage_modal{
-        width: 90%;
+        width: 100%;
+    }
+    .modal-body{
+        padding: 0;
     }
     
   }
-  @media only screen and (min-width: 350px) and (max-width: 568px) {
+  @media only screen and (min-width: 350px) and (max-width: 667px) {
     .portContainer{
-        margin-top: 10vh;
+        margin-top: 17vh;
     }
     .portHeader{
         font-size: 36px;
@@ -150,17 +149,55 @@
     .portfolio{
         background-image: none;
         background-repeat: repeat;
-        height: 110vh;
+        height: 130vmax;
     }
   }
   
-  @media only screen and (min-width: 569px)and (max-width: 1000px) {
+  @media only screen and (min-width: 668px)and (max-width: 767px) {
+    .portContainer{
+        margin-top: 20vh;
+    }
     .portHeader{
         font-size: 32px;
     }
-    
+    .portText1{
+        margin-top: 4vh;
+    }
+    .projectControl{
+        font-size: 16px;
+        
+    }
+    .projectCenter{
+        text-align: center;
+        position: relative;
+        bottom: 40px;
+    }
+    .projectNext{
+        position: relative;
+        bottom: 80px;
+    }
+    .projectImage_modal{
+        width: 90%;
+    } 
+    .portfolio{
+        background-image: none;
+        background-repeat: repeat;
+        height: 110vmax;
+    }
   }
-  @media only screen and (min-width: 1000px)and (max-width: 1200px) {
-      
-    
+  @media only screen and (min-width: 768px)and (max-width: 1000px) {
+    .portfolio{
+        height: 110vmax;
+    }
+    .portContainer{
+        margin-top: 20vh;
+    }
+    .portHeader{
+        font-size: 32px;
+    }
+  }
+  @media only screen and (min-width: 1001px)and (max-width: 1200px) {
+    .portfolio{
+        height: 100vh;
+    }
   }
