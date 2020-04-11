@@ -7,9 +7,9 @@ import "./style.css";
 class Navbar extends React.Component {
     render() {
         let isActive = this.props.location.pathname;
-        console.log(isActive);
+        console.log(this.props);
         return (
-            <div className="navbar navbar-expand-md fixed-top navClass">
+            <div className="navbar navbar-expand-sm fixed-top navbar-light navClass">
                 <div className="container navClass">
                     {/* <a href="/" className="mr-auto navBarLogo">SaronNhong</a> */}
                     <img className="navImg" src={process.env.PUBLIC_URL + 'images/saron-logo2.svg'} />

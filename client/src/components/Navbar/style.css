@@ -16,6 +16,7 @@
     -webkit-transition: color .2s, border .2s; 
     transition: linear color .2s, ease-in border .2s;
 }
+
 .nav-link:hover{
     border-bottom: rgb(238,238,238, .9) solid 2px;
     color: rgb(238,238,238, .9) !important;
@@ -35,12 +36,10 @@ a:link{
 .navbar-toggler{
     border: none;
 }
-.navImg{
-    padding-top: 10px;
-}
 
 
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 359px) {
     
     .nav-link{
         font-size: 16px;
@@ -62,6 +61,61 @@ a:link{
     .mt-2, .my-2 {
         margin-top: 0px !important;
     }
+    .navbar{
+        background-color: whitesmoke;
+        
+    }
+    .navImg{
+        margin-left: 10px;
+        padding-top: 10px;
+    }
+    .navbar-toggler-icon{
+        margin-left: 50px;
+        
+    }
+    /* .navImg{
+        padding-top: 10px;
+    } */
+    
+    
+  }
+@media only screen and (min-width: 360px) and (max-width: 600px) {
+    
+    .nav-link{
+        font-size: 16px;
+        width: 100vw;
+        
+    }
+    .navbar-nav{
+        border-top: solid rgb(98,99,101, .7);
+        border-width: 1px;
+    }
+    #navService, #navHome, #navAbout, #navContact{
+        padding: 20px 25px;
+    }
+    /* .navbar-toggler{
+        margin-top: 10px;
+        margin-bottom: 0px;
+        padding-bottom: 12px;
+    } */
+    .mt-2, .my-2 {
+        margin-top: 0px !important;
+    }
+    .navbar{
+        background-color: whitesmoke;
+        
+    }
+    .navImg{
+        margin-left: 10px;
+        padding-top: 10px;
+    }
+    .navbar-toggler-icon{
+        margin-left: 120px;
+        
+    }
+    /* .navImg{
+        padding-top: 10px;
+    } */
     
     
   }

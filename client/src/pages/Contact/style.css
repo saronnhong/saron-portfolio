@@ -70,6 +70,9 @@
     font-weight: 800;
     color: rgb(20,20,20, .85);
 }
+body {
+    background-color: #FF6161;
+}
 
 /* Sweep To Right */
 .hvr-sweep-to-right-sendbtn {
@@ -112,18 +115,17 @@
     transform: scaleX(1);
   }
 @media only screen and (max-width: 349px) {
-    .aboutUsTitle{
-      background: url("/images/openstreet_contact_banner_small-min.jpg");
-      background-size: cover;
-      background-position: center;
-      height: 75vw;
-      top: 35px; 
+    .contact{
+        height: 190vh;
     }
     .contactPage{
         top: 60px;
     }
     .contactTitle{
         font-size: 28px;
+    }
+    .contactText{
+      width: 100%;
     }
     .contactContent{
         top: 20px;
@@ -138,18 +140,17 @@
     
   }
   @media only screen and (min-width: 350px) and (max-width: 568px) {
-    .aboutUsTitle{
-        background: url("/images/openstreet_contact_banner_small-min.jpg");
-        background-size: cover;
-        background-position: center;
-        height: 75vw;
-        top: 35px; 
+      .contact{
+          height: 160vh;
       }
       .contactPage{
           top: 60px;
       }
       .contactTitle{
           font-size: 28px;
+      }
+      .contactText{
+        width: 100%;
       }
       .contactContent{
           top: 20px;
@@ -164,15 +165,18 @@
   }
   
   @media only screen and (min-width: 569px)and (max-width: 1000px) {
-    .aboutUsTitle{
+    /* .aboutUsTitle{
         background: url("/images/openstreet_contact_banner_small-min.jpg");
         background-size: cover;
         background-position: center;
         height: 75vw;
         top: 35px; 
-      }
+      } */
+      .contact{
+        height: 100vh;
+    }
       .contactPage{
-          top: 60px;
+          top: 15vh;
       }
       .contactTitle{
           font-size: 28px;
@@ -190,3 +194,27 @@
       }
     
   }
+  @media only screen and (min-width: 1000px)and (max-width: 1200px) {
+      .contact{
+        height: 100vh;
+    }
+      .contactPage{
+          top: 11vh;
+      }
+      .contactTitle{
+          font-size: 28px;
+      }
+      .contactContent{
+          top: 20px;
+      }
+      .ourOffice{
+          font-size: 24px;
+      }
+      .contactUs{
+          font-size: 24px;
+          margin-top: 20px;
+          margin-bottom: 15px;
+      }
+    
+  }
+  
