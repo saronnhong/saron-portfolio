@@ -3,7 +3,6 @@ import Modal from "../../components/Modal"
 import Project from "./projectList.json";
 import "./style.css";
 
-
 class Portfolio extends Component {
     state = {
         projList: 0,
@@ -103,7 +102,6 @@ class Portfolio extends Component {
         </React.Fragment>
     );
 
-
     render() {
         return (
             <div className="portfolio">
@@ -120,7 +118,6 @@ class Portfolio extends Component {
                                 {this.state.projList === 3 ? <Modal modalProps={this.modalProps3} modalContent={this.modalContent3} /> : null}
                                 {this.state.projList === 4 ? <Modal modalProps={this.modalProps4} modalContent={this.modalContent4} /> : null}
                                 {this.state.projList === 5 ? <Modal modalProps={this.modalProps5} modalContent={this.modalContent5} /> : null}
-
                             </div>
                         </div>
                     </div>
