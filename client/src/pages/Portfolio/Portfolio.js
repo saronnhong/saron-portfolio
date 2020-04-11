@@ -127,7 +127,7 @@ class Portfolio extends Component {
                     <div className="row">
                         <div className="col-md-6">
                             <div className="row">
-                                <div className="col-md-4 projectControl">
+                                <div className="col-md-4 projectPrev projectControl">
                                     <a onClick={() => {
                                         this.setState({ projList: (this.state.projList - 1) % 6 });
                                     }} >

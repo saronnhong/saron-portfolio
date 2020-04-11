@@ -72,8 +72,11 @@
    
 
 }
+.projectPrev{
+    text-align: left;
+}
 .projectNext{
-    text-align: end;
+    text-align: right;
     
 }
 .projectCenter{
@@ -83,7 +86,7 @@
     color: rgb(20,20,20, .8);
 }
 
-.card{
+/* .card{
     width: 100%;
     border: 10px solid rgba(250, 250, 250, 0.8);
 }
@@ -94,8 +97,71 @@
 }
 .card-body{
     padding: .75rem;
-}
+} */
 .modalBold{
     color: rgb(255,0,0, .9);
     font-weight: 600;
 }
+@media only screen and (max-width: 349px) {
+    .portfolio{
+        height: 140vh;
+    }
+    .portContainer{
+        margin-top: 10vh;
+    }
+    .portHeader{
+        font-size: 36px;
+    }
+    .portText1{
+        margin-top: 4vh;
+    }
+    .projectControl{
+        font-size: 16px;
+        
+    }
+    .projectCenter{
+        text-align: center;
+        position: relative;
+        bottom: 38px;
+    }
+    .projectNext{
+        position: relative;
+        bottom: 76px;
+    }
+    
+  }
+  @media only screen and (min-width: 350px) and (max-width: 568px) {
+    .portContainer{
+        margin-top: 10vh;
+    }
+    .portHeader{
+        font-size: 36px;
+    }
+    .portText1{
+        margin-top: 4vh;
+    }
+    .projectControl{
+        font-size: 16px;
+        
+    }
+    .projectCenter{
+        text-align: center;
+        position: relative;
+        bottom: 38px;
+    }
+    .projectNext{
+        position: relative;
+        bottom: 76px;
+    }
+  }
+  
+  @media only screen and (min-width: 569px)and (max-width: 1000px) {
+    .portHeader{
+        font-size: 32px;
+    }
+    
+  }
+  @media only screen and (min-width: 1000px)and (max-width: 1200px) {
+      
+    
+  }
