@@ -8,9 +8,9 @@ class Portfolio extends Component {
     state = {
         projList: 0,
     }
-    // componentDidMount() {
-    //     window.scrollTo(0, 0);
-    // }
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
 
     modalProps0 = {
         triggerText: <img className="projectImage" src={process.env.PUBLIC_URL + `${Project[0].imageLocation}`} />
