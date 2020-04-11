@@ -10,7 +10,7 @@ import FocusTrap from 'focus-trap-react';
 export class ModalContent extends Component {
   render() {
     return ReactDOM.createPortal(
-      <FocusTrap>
+      <div>
         <aside
           tag="aside"
           role="dialog"
@@ -21,7 +21,7 @@ export class ModalContent extends Component {
           onKeyDown={this.props.onKeyDown}
         >
           <div className="modal-area" ref={this.props.modalRef}>
-            <button
+            <div
               ref={this.props.buttonRef}
               aria-label="Close Modal"
               
@@ -30,15 +30,15 @@ export class ModalContent extends Component {
             >
               <span id="close-modal" className="_hide-visual">
                 Close
-              </span>
-              <svg className="_modal-close-icon" viewBox="0 0 40 40">
+              </span>x
+              {/* <svg className="_modal-close-icon" viewBox="0 0 40 40">
                 <path d="M 10,10 L 30,30 M 30,10 L 10,30" />
-              </svg>
-            </button>
+              </svg> */}
+            </div>
             <div className="modal-body">{this.props.content}</div>
           </div>
         </aside>
-      </FocusTrap>,
+        </div>,
       document.body
     );
   }
