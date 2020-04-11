@@ -7,8 +7,8 @@
     border-radius: 10px;
     cursor: pointer;
     transition: background 0.15s ease-out;
-  } */
-  /* .modal-button:hover {
+  }
+  .modal-button:hover {
     background: rgb(60, 77, 80);
     color: white;
   } */
@@ -53,6 +53,7 @@
       transform: translate(-50%, -50%);
       max-width: 70em;
       max-height: calc(100% - 1em);
+      padding: 2.5em 1em 1.5em 1em;
     }
   }
   
@@ -60,19 +61,28 @@
     position: absolute;
     top: 0;
     right: 0;
-    padding: 0.5em;
+    padding: .5em;
     line-height: 1;
     /* background: #f6f6f7; */
     border: 0;
-    opacity: 0;
-    /* box-shadow: 0; */
-    /* cursor: pointer; */
+    opacity: 90%;
+    box-shadow: 0;
+    cursor: pointer;
+    color: red;
+    font-size: 30px;
+    margin-top: -12px;
+    background-color: rgba(0, 0, 0, 0.1);
+
   }
+  ._modal-close:focus{
+    border: transparent solid 5px;
+  }
+  
   
   /* ._modal-close-icon {
     width: 25px;
     height: 25px;
-    fill: transparent;
+    fill: red;
     stroke: black;
     stroke-linecap: round;
     stroke-width: 2;
