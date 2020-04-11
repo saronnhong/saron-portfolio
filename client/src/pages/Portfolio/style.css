@@ -147,6 +147,10 @@
     .projectImage_modal{
         width: 90%;
     }
+    .portfolio{
+        background-image: none;
+        background-repeat: repeat;
+    }
   }
   
   @media only screen and (min-width: 569px)and (max-width: 1000px) {
