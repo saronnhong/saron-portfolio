@@ -150,6 +150,7 @@
     .portfolio{
         background-image: none;
         background-repeat: repeat;
+        height: 110vh;
     }
   }
   
