@@ -2,6 +2,8 @@ import React, { Component } from "react";
 // import { HashLink as Link } from 'react-router-hash-link';
 import { HashLink as Link } from 'react-router-hash-link';
 import "./style.css";
+// import Pdf from '../../../public/documents/Saron-Nhong-Resume.pdf';
+import Pdf from './Saron-Nhong-Resume.pdf'
 // import Footer from "../../components/Footer";
 
 
@@ -21,7 +23,7 @@ class Home extends Component {
                             <button type="button" className="btn btn-dark homeBtn colabBtn hvr-sweep-to-right">Let’s Collab!</button>
                         </Link>
 
-                        <a href={process.env.PUBLIC_URL + "/saron-nhong-resume.pdf"} target="_blank">
+                        <a href={Pdf} target="_blank">
                             <button type="button" className="btn btn-outline-dark homeBtn">View My Resume</button>
                         </a>
                     </div>
