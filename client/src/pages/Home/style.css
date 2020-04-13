@@ -95,6 +95,7 @@ width: 55vw;
   }
   .homeBtn{
     margin: 5px 20px 0 0;
+    width: 100%;
   }
   .home{
     height: 100vh;
@@ -128,10 +129,14 @@ width: 55vw;
 
 @media only screen and (min-width: 569px)and (max-width: 1000px) {
   .homeContainer{
-    margin-top: 20vh;
+    margin-top: 25vh;
   }
   .home{
     height: 100vmax;
+  }
+  .homeHeader{
+    line-height: 1.2;
+    font-size: 38px;
   }
   
 }
