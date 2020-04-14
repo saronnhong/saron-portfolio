@@ -12,93 +12,93 @@ class Portfolio extends Component {
     }
 
     modalProps0 = {
-        triggerText: <img className="projectImage" src={process.env.PUBLIC_URL + `${Project[0].imageLocation}`} />
+        triggerText: <img className="projectImage" src={process.env.PUBLIC_URL + `${Project[0].imageLocation}`} alt="portfolio_image" />
     };
     modalContent0 = (
         <React.Fragment>
             <h3 className="projectImageTitle">{Project[0].project}</h3>
             <div className="projectImageContainer">
-                <img className="projectImage_modal" src={process.env.PUBLIC_URL + `${Project[0].imageLocation}`} />
+                <img className="projectImage_modal" src={process.env.PUBLIC_URL + `${Project[0].imageLocation}`} alt="portfolio_image" />
             </div>
             <p><div className="modalBold">Description: </div> {Project[0].overview}</p>
             <p><div className="modalBold">Technologies: </div> {Project[0].tech}</p>
-            <p><div className="modalBold">Deployed: </div><a href={Project[0].deployLink} target="_blank">{Project[0].deployLink}</a> </p>
-            <p><div className="modalBold">Github: </div><a href={Project[0].githubLink} target="_blank">{Project[0].githubLink}</a></p>
+            <p><div className="modalBold">Deployed: </div><a href={Project[0].deployLink} target="_blank" rel="noopener noreferrer">{Project[0].deployLink}</a> </p>
+            <p><div className="modalBold">Github: </div><a href={Project[0].githubLink} target="_blank" rel="noopener noreferrer">{Project[0].githubLink}</a></p>
         </React.Fragment>
     );
     modalProps1 = {
-        triggerText: <img className="projectImage" src={process.env.PUBLIC_URL + `${Project[1].imageLocation}`} />
+        triggerText: <img className="projectImage" src={process.env.PUBLIC_URL + `${Project[1].imageLocation}`} alt="portfolio_image" />
     };
     modalContent1 = (
         <React.Fragment>
             <h3 className="projectImageTitle">{Project[1].project}</h3>
             <div className="projectImageContainer">
-                <img className="projectImage_modal" src={process.env.PUBLIC_URL + `${Project[1].imageLocation}`} />
+                <img className="projectImage_modal" src={process.env.PUBLIC_URL + `${Project[1].imageLocation}`} alt="portfolio_image" />
             </div>
             <p><div className="modalBold">Description: </div> {Project[1].overview}</p>
             <p><div className="modalBold">Technologies: </div> {Project[1].tech}</p>
-            <p><div className="modalBold">Deployed: </div><a href={Project[1].deployLink} target="_blank">{Project[1].deployLink}</a> </p>
-            <p><div className="modalBold">Github: </div><a href={Project[1].githubLink} target="_blank">{Project[1].githubLink}</a></p>
+            <p><div className="modalBold">Deployed: </div><a href={Project[1].deployLink} target="_blank" rel="noopener noreferrer">{Project[1].deployLink}</a> </p>
+            <p><div className="modalBold">Github: </div><a href={Project[1].githubLink} target="_blank" rel="noopener noreferrer">{Project[1].githubLink}</a></p>
         </React.Fragment>
     );
     modalProps2 = {
-        triggerText: <img className="projectImage" src={process.env.PUBLIC_URL + `${Project[2].imageLocation}`} />
+        triggerText: <img className="projectImage" src={process.env.PUBLIC_URL + `${Project[2].imageLocation}`} alt="portfolio_image" />
     };
     modalContent2 = (
         <React.Fragment>
             <h3 className="projectImageTitle">{Project[2].project}</h3>
             <div className="projectImageContainer">
-                <img className="projectImage_modal" src={process.env.PUBLIC_URL + `${Project[2].imageLocation}`} />
+                <img className="projectImage_modal" src={process.env.PUBLIC_URL + `${Project[2].imageLocation}`} alt="portfolio_image" />
             </div>
             <p><div className="modalBold">Description: </div> {Project[2].overview}</p>
             <p><div className="modalBold">Technologies: </div> {Project[2].tech}</p>
-            <p><div className="modalBold">Deployed: </div><a href={Project[2].deployLink} target="_blank">{Project[2].deployLink}</a> </p>
-            <p><div className="modalBold">Github: </div><a href={Project[2].githubLink} target="_blank">{Project[2].githubLink}</a></p>
+            <p><div className="modalBold">Deployed: </div><a href={Project[2].deployLink} target="_blank" rel="noopener noreferrer">{Project[2].deployLink}</a> </p>
+            <p><div className="modalBold">Github: </div><a href={Project[2].githubLink} target="_blank" rel="noopener noreferrer">{Project[2].githubLink}</a></p>
         </React.Fragment>
     );
     modalProps3 = {
-        triggerText: <img className="projectImage" src={process.env.PUBLIC_URL + `${Project[3].imageLocation}`} />
+        triggerText: <img className="projectImage" src={process.env.PUBLIC_URL + `${Project[3].imageLocation}`} alt="portfolio_image" />
     };
     modalContent3 = (
         <React.Fragment>
             <h3 className="projectImageTitle">{Project[3].project}</h3>
             <div className="projectImageContainer">
-                <img className="projectImage_modal" src={process.env.PUBLIC_URL + `${Project[3].imageLocation}`} />
+                <img className="projectImage_modal" src={process.env.PUBLIC_URL + `${Project[3].imageLocation}`} alt="portfolio_image" />
             </div>
             <p><div className="modalBold">Description: </div> {Project[3].overview}</p>
             <p><div className="modalBold">Technologies: </div> {Project[3].tech}</p>
-            <p><div className="modalBold">Deployed: </div><a href={Project[3].deployLink} target="_blank">{Project[3].deployLink}</a> </p>
-            <p><div className="modalBold">Github: </div><a href={Project[3].githubLink} target="_blank">{Project[3].githubLink}</a></p>
+            <p><div className="modalBold">Deployed: </div><a href={Project[3].deployLink} target="_blank" rel="noopener noreferrer">{Project[3].deployLink}</a> </p>
+            <p><div className="modalBold">Github: </div><a href={Project[3].githubLink} target="_blank" rel="noopener noreferrer">{Project[3].githubLink}</a></p>
         </React.Fragment>
     );
     modalProps4 = {
-        triggerText: <img className="projectImage" src={process.env.PUBLIC_URL + `${Project[4].imageLocation}`} />
+        triggerText: <img className="projectImage" src={process.env.PUBLIC_URL + `${Project[4].imageLocation}`} alt="portfolio_image" />
     };
     modalContent4 = (
         <React.Fragment>
             <h3 className="projectImageTitle">{Project[4].project}</h3>
             <div className="projectImageContainer">
-                <img className="projectImage_modal" src={process.env.PUBLIC_URL + `${Project[4].imageLocation}`} />
+                <img className="projectImage_modal" src={process.env.PUBLIC_URL + `${Project[4].imageLocation}`} alt="portfolio_image" />
             </div>
             <p><div className="modalBold">Description: </div> {Project[4].overview}</p>
             <p><div className="modalBold">Technologies: </div> {Project[4].tech}</p>
-            <p><div className="modalBold">Deployed: </div><a href={Project[4].deployLink} target="_blank">{Project[4].deployLink}</a> </p>
-            <p><div className="modalBold">Github: </div><a href={Project[4].githubLink} target="_blank">{Project[4].githubLink}</a></p>
+            <p><div className="modalBold">Deployed: </div><a href={Project[4].deployLink} target="_blank" rel="noopener noreferrer">{Project[4].deployLink}</a> </p>
+            <p><div className="modalBold">Github: </div><a href={Project[4].githubLink} target="_blank" rel="noopener noreferrer">{Project[4].githubLink}</a></p>
         </React.Fragment>
     );
     modalProps5 = {
-        triggerText: <img className="projectImage" src={process.env.PUBLIC_URL + `${Project[5].imageLocation}`} />
+        triggerText: <img className="projectImage" src={process.env.PUBLIC_URL + `${Project[5].imageLocation}`} alt="portfolio_image" />
     };
     modalContent5 = (
         <React.Fragment>
             <h3 className="projectImageTitle">{Project[5].project}</h3>
             <div className="projectImageContainer">
-                <img className="projectImage_modal" src={process.env.PUBLIC_URL + `${Project[5].imageLocation}`} />
+                <img className="projectImage_modal" src={process.env.PUBLIC_URL + `${Project[5].imageLocation}`} alt="portfolio_image" />
             </div>
             <p><div className="modalBold">Description: </div> {Project[5].overview}</p>
             <p><div className="modalBold">Technologies: </div> {Project[5].tech}</p>
-            <p><div className="modalBold">Deployed: </div><a href={Project[5].deployLink} target="_blank">{Project[5].deployLink}</a> </p>
-            <p><div className="modalBold">Github: </div><a href={Project[5].githubLink} target="_blank">{Project[5].githubLink}</a></p>
+            <p><div className="modalBold">Deployed: </div><a href={Project[5].deployLink} target="_blank" rel="noopener noreferrer">{Project[5].deployLink}</a> </p>
+            <p><div className="modalBold">Github: </div><a href={Project[5].githubLink} target="_blank" rel="noopener noreferrer">{Project[5].githubLink}</a></p>
         </React.Fragment>
     );
 

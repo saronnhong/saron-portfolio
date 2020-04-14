@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import ModalTrigger from '../ModalTrigger';
+// import ModalTrigger from '../ModalTrigger';
 import ReactDOM from 'react-dom';
 import "./style.css";
 
 // import React, { Component } from 'react';
 // import ReactDOM from 'react-dom';
-import FocusTrap from 'focus-trap-react';
+// import FocusTrap from 'focus-trap-react';
 // import focusTrap from 'focus-trap';
 export class ModalContent extends Component {
   render() {
