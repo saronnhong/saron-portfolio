@@ -44,7 +44,8 @@ class Contact extends Component {
                 <div>
                     <div className="contactPage container">
                         <h1 className="contactTitle" >Let’s get in touch.</h1>
-                        <p className="contactText">Longing to have a truly unique and memorable web app to call your own? I love exploring fresh artistic directions, experimenting with new technologies, and collaborating with others. So what are you waiting for? Let’s make it happen!</p>
+                        {/* <p className="contactText">Longing to have a truly unique and memorable web app to call your own? I love exploring fresh artistic directions, experimenting with new technologies, and collaborating with others. So what are you waiting for? Let’s make it happen!</p> */}
+                        <p className="contactText">I am always open to discussing development work or collaborative opportunities. So what are you waiting for? Let’s make it happen!</p>
                         <div className="row contactContent">
                             <div className="col-md-4">
                                 <h1 className="ourOffice">Contact</h1>

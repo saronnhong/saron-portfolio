@@ -1,7 +1,11 @@
 import React, { Component } from "react";
 import { HashLink as Link } from 'react-router-hash-link';
 import "./style.css";
-import Pdf from './Saron-Nhong-Resume.pdf'
+import Pdf from './Saron-Nhong-Resume.pdf';
+import Portfolio from '../Portfolio';
+import Contact from '../Contact';
+
+
 
 
 class Home extends Component {
@@ -11,17 +15,20 @@ class Home extends Component {
 
     render() {
         return (
-            <div className="home ">
-                <div className="container">
-                    <div className="homeContainer">
-                        <h1 className="homeHeader">I build amazing web apps.</h1>
-                        <p className="homeText">Hi, my name is Saron. I am a full-stack web developer based in San Diego with an affinity for brilliant design. I enjoy my work to build creative and functional user experiences. My domain of expertise is in custom designed web applications with the latest technology stacks which includes ReactJS, NodeJS, ExpressJS, MongoDB, MySQL, etc. I am always willing to discuss new projects and am able to to take a client's idea from paper to a fully functional application. If you can imagine it, I can build it!</p>
-                        <Link to="/contact">
-                            <button type="button" className="btn btn-dark homeBtn colabBtn hvr-sweep-to-right">Let’s Collab!</button>
-                        </Link>
-                        <a href={Pdf} target="_blank" rel="noopener noreferrer">
-                            <button type="button" className="btn btn-outline-dark homeBtn">View My Resume</button>
-                        </a>
+            <div>
+                <div className="home">
+                    <div className="container">
+                        <div className="homeContainer">
+                            <h1 className="homeHeader">Hi, my name is Saron Nhong.</h1>
+                            {/* <p className="homeText">Hi, my name is Saron. I am a full-stack web developer based in San Diego with an affinity for brilliant design. I enjoy my work to build creative and functional user experiences. My domain of expertise is in custom designed web applications with the latest technology stacks which includes ReactJS, NodeJS, ExpressJS, MongoDB, MySQL, etc. I am always willing to discuss new projects and am able to to take a client's idea from paper to a fully functional application. If you can imagine it, I can build it!</p> */}
+                            <p className="homeText">I am a San Diego based full stack developer focused on creating efficient and impactful applications.</p>
+                            <Link to="/contact">
+                                <button type="button" className="btn btn-dark homeBtn colabBtn hvr-sweep-to-right">Let’s Collab!</button>
+                            </Link>
+                            <a href={Pdf} target="_blank" rel="noopener noreferrer">
+                                <button type="button" className="btn btn-outline-dark homeBtn">View My Resume</button>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
