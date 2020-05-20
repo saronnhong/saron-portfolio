@@ -11,7 +11,7 @@
 }
 
 .homeContainer{
-  margin-top: 30vh;
+  margin-top: 25vh;
 }
 .homeHeader{
 font-family: 'Poppins', sans-serif;
@@ -24,7 +24,7 @@ color: #EEEEEE;
 font-family: 'Poppins', sans-serif;
 font-style: normal;
 font-weight: normal;
-font-size: 26px;
+font-size: 18px;
 line-height: 150%;
 color: rgb(20,20,20, .8);
 width: 55vw;

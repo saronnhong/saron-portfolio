@@ -1,6 +1,7 @@
 .contact{
     color: #20242B;
-    background-color: #FF6161;
+    /* background-color: #FF6161; */
+    background-color: rgb(51,51,51);
     position:absolute; 
     width: 100vw;
     height: 100vh;
@@ -21,7 +22,8 @@
     font-weight: bold;
     font-size: 48px;
     line-height: 140%;
-    color: #EEEEEE;
+    /* color: #EEEEEE; */
+    color: rgb(237, 126, 107);
 }
 .contactText{
     font-family: 'Poppins', sans-serif;
@@ -29,7 +31,8 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 130%;
-    color: rgb(20,20,20, .8);
+    /* color: rgb(20,20,20, .8); */
+    color: rgb(221, 221, 222);
     width: 45vw;
 }
 .contactContent{
@@ -40,7 +43,7 @@
 .textFields{
     width: 100%;
     padding: 6px;
-    
+    background-color: rgb(221, 221, 222);
 }
 #confirmMessage{
     background-color: #E38D58;
@@ -66,7 +69,11 @@
 }
 .ourOffice, .contactUs{
     font-weight: 800;
-    color: rgb(20,20,20, .85);
+    /* color: rgb(20,20,20, .85); */
+    color: rgb(237, 126, 107);
+}
+.btn-dark, .btn-dark:hover{
+    border-color: white;
 }
 
 /* Sweep To Right */
