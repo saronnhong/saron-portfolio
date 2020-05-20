@@ -7,11 +7,11 @@ import "./style.css";
 class Navbar extends React.Component {
     render() {
         let isActive = this.props.location.pathname;
-        console.log(this.props);
+        console.log(window.innerWidth);
         return (
             <div className="navbar navbar-expand-sm fixed-top navbar-light navClass">
                 <div className="container navClass">
-                    {isActive === "/contact" ? <img className="navImg" src={process.env.PUBLIC_URL + 'images/saron-logo-white.svg'} alt="logo" /> : <img className="navImg" src={process.env.PUBLIC_URL + 'images/saron-logo2.svg'} alt="logo" />}
+                    {isActive === "/contact" && window.innerWidth > 600 ? <img className="navImg" src={process.env.PUBLIC_URL + 'images/saron-logo-white.svg'} alt="logo" /> : <img className="navImg" src={process.env.PUBLIC_URL + 'images/saron-logo2.svg'} alt="logo" />}
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>

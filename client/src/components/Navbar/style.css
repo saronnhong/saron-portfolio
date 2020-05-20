@@ -93,7 +93,9 @@ a:link{
     /* .navImg{
         padding-top: 10px;
     } */
-    
+    .nav-link-contact-page, .nav-link-contact-page:hover{
+        color: rgb(20,20,20, .9);
+    }
     
   }
 @media only screen and (min-width: 360px) and (max-width: 600px) {
@@ -133,7 +135,9 @@ a:link{
     /* .navImg{
         padding-top: 10px;
     } */
-    
+    .nav-link-contact-page, .nav-link-contact-page:hover{
+        color: rgb(20,20,20, .9);
+    }
     
   }
 
