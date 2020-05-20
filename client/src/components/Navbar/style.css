@@ -16,6 +16,23 @@
     -webkit-transition: color .2s, border .2s; 
     transition: linear color .2s, ease-in border .2s;
 }
+.nav-link-contact-page{
+    text-decoration: none !important;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+    margin: 0px 5px;
+    border: transparent solid 3px;
+    -webkit-transition: color .2s, border .2s; 
+    transition: linear color .2s, ease-in border .2s;
+}
+.nav-link-contact-page:hover{
+    border-bottom: rgb(238,238,238, .9) solid 2px;
+    color: rgb(237, 126, 107, .9) !important;
+    font-weight: 400;
+}
 
 .nav-link:hover{
     border-bottom: rgb(238,238,238, .9) solid 2px;
