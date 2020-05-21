@@ -1,4 +1,4 @@
-.portfolio{
+/* .portfolio{
     background-color: #FFAD61;
     position: absolute;
     width: 100vw;
@@ -200,4 +200,81 @@
     .portfolio{
         height: 100vh;
     }
+  } */
+
+  .project1{
+    background-color: #FFAD61;
+    position: relative;
+    width: 100vw;
+    /* height: 120vh; */
+    padding: 50px 0;
+    
   }
+  .project2{
+    background-color: rgb(237, 202, 107);
+    position: relative;
+    width: 100vw;
+    /* height: 100vh; */
+    /* margin-top: 120vh; */
+    padding: 50px 0;
+  }
+  .project3{
+    background-color: rgb(127, 207, 111);
+    position: relative;
+    width: 100vw;
+    /* height: 100vh; */
+    /* margin-top: 220vh; */
+    padding: 50px 0;
+  }
+  .portHeader{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 140%;
+    /* color: #EEEEEE; */
+    color: rgb(214, 41, 45, .8);
+    margin-top: 50px;
+}
+.portTitle{
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+    text-align: center;
+    /* color: rgb(20,20,20, .8); */
+    color: #EEEEEE;
+}
+.portSubTitle{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgb(20,20,20, .7);
+    text-align: center;
+}
+.portDescription{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 17px;
+    width: 60%;
+    color: rgb(20,20,20, .6);
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.projectImage{
+    width: 70%;
+}
+.imgContainer{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.buttonContainer{
+    width: 100%;
+    text-align: center;
+}
+.portButton{
+    margin: 20px 5px;
+    width: 100px;
+}
+

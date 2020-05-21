@@ -10,25 +10,25 @@
     font-weight: 400;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
-    padding: 15px;
+    padding: 15px 8px;
     margin: 0px 5px;
     border: transparent solid 3px;
     -webkit-transition: color .2s, border .2s; 
     transition: linear color .2s, ease-in border .2s;
 }
-.nav-link-contact-page{
+.navLinkContactPage{
     text-decoration: none !important;
-    color: white;
+    color: rgb(238,238,238, .9);
     font-weight: 400;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
-    padding: 15px;
+    padding: 15px 8px;
     margin: 0px 5px;
     border: transparent solid 3px;
     -webkit-transition: color .2s, border .2s; 
     transition: linear color .2s, ease-in border .2s;
 }
-.nav-link-contact-page:hover{
+.navLinkContactPage:hover{
     border-bottom: rgb(238,238,238, .9) solid 2px;
     color: rgb(237, 126, 107, .9) !important;
     font-weight: 400;
@@ -93,7 +93,7 @@ a:link{
     /* .navImg{
         padding-top: 10px;
     } */
-    .nav-link-contact-page, .nav-link-contact-page:hover{
+    .navLinkContactPage, .navLinkContactPage:hover{
         color: rgb(20,20,20, .9);
     }
     
@@ -112,11 +112,6 @@ a:link{
     #navService, #navHome, #navAbout, #navContact{
         padding: 20px 25px;
     }
-    /* .navbar-toggler{
-        margin-top: 10px;
-        margin-bottom: 0px;
-        padding-bottom: 12px;
-    } */
     .mt-2, .my-2 {
         margin-top: 0px !important;
     }
@@ -132,10 +127,7 @@ a:link{
         margin-left: 120px;
         
     }
-    /* .navImg{
-        padding-top: 10px;
-    } */
-    .nav-link-contact-page, .nav-link-contact-page:hover{
+    .navLinkContactPage, .navLinkContactPage:hover{
         color: rgb(20,20,20, .9);
     }
     

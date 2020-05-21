@@ -20,22 +20,17 @@ class Navbar extends React.Component {
                             <ul className="navbar-nav">
                                 <Link smooth to="/home">
                                     <li className={isActive === "/home" ? "active nav-item" : "nav-item"}>
-                                        <div href="/home" id="navHome" className={isActive === "/contact" ? "nav-link-contact-page " : "nav-link"} data-toggle="collapse" data-target=".navbar-collapse.show">Home</div>
+                                        <div href="/home" id="navHome" className={isActive === "/contact" ? "navLinkContactPage" : "nav-link"} data-toggle="collapse" data-target=".navbar-collapse.show">Home</div>
                                     </li>
                                 </Link>
-                                {/* <Link smooth to="/about">
-                                    <li className={isActive === "/about" ? "active nav-item" : "nav-item"}>
-                                        <div href="/about" id="navAbout" className={isActive === "/contact" ? "nav-link-contact-page " : "nav-link"} data-toggle="collapse" data-target=".navbar-collapse.show">About</div>
-                                    </li>
-                                </Link> */}
                                 <Link smooth to="/portfolio">
                                     <li className={isActive === "/portfolio" ? "active nav-item" : "nav-item"}>
-                                        <div href="/portfolio" id="navService" className={isActive === "/contact" ? "nav-link-contact-page " : "nav-link"} data-toggle="collapse" data-target=".navbar-collapse.show">Portfolio</div>
+                                        <div href="/portfolio" id="navService" className={isActive === "/contact" ? "navLinkContactPage " : "nav-link"} data-toggle="collapse" data-target=".navbar-collapse.show">Portfolio</div>
                                     </li>
                                 </Link>
                                 <Link smooth to="/contact">
-                                    <li className={isActive === "/contact" ? "active nav-item " : "nav-item"}>
-                                        <div href="/contact" id="navContact" className={isActive === "/contact" ? "nav-link-contact-page " : "nav-link"} data-toggle="collapse" data-target=".navbar-collapse.show">Get In Touch</div>
+                                    <li className={isActive === "/contact" ? "active nav-item" : "nav-item"}>
+                                        <div href="/contact" id="navContact" className={isActive === "/contact" ? "navLinkContactPage " : "nav-link"} data-toggle="collapse" data-target=".navbar-collapse.show">Get In Touch</div>
                                     </li>
                                 </Link>
                             </ul>
