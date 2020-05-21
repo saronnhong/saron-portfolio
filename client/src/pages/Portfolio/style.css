@@ -226,7 +226,7 @@
     /* margin-top: 220vh; */
     padding: 50px 0;
   }
-  .portHeader{
+.portHeader{
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 48px;
@@ -278,3 +278,43 @@
     width: 100px;
 }
 
+@media only screen and (max-width: 750px) {
+    .portHeader{
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    .portTitle{
+        margin-top: 20px;
+        font-size: 48px;
+        text-align: left;
+    }
+    .portSubTitle{
+        font-size: 18px;
+        text-align: left;
+    }
+    .portDescription{
+        font-size: 14px;
+        width: 100%;
+        margin-top: 20px;
+        text-align: left;
+    }
+    .projectImage{
+        width: 90%;
+    }
+    .imgContainer{
+        text-align: left;
+    }
+  }
+@media only screen and (min-width: 350px) and (max-width: 667px) {
+    
+  }
+  
+@media only screen and (min-width: 668px)and (max-width: 767px) {
+    
+  }
+@media only screen and (min-width: 768px)and (max-width: 1000px) {
+   
+  }
+@media only screen and (min-width: 1001px)and (max-width: 1200px) {
+    
+}
