@@ -65,7 +65,7 @@
     color: #EEEEEE;
 }
 .contactDetails:hover{
-    color: #2e2f30;
+    color: rgba(238, 238, 238, 0.6);
 }
 .ourOffice, .contactUs{
     font-weight: 800;
