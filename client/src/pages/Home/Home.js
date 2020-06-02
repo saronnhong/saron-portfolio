@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import { HashLink as Link } from 'react-router-hash-link';
 import "./style.css";
 import Pdf from './Saron-Nhong-Resume.pdf';
-import Portfolio from '../Portfolio';
-import Contact from '../Contact';
+// import Portfolio from '../Portfolio';
+// import Contact from '../Contact';
 
 
 
