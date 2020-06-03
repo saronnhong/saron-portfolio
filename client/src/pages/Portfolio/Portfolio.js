@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./style.css";
-import Carousel from "./../../components/Carousel"
+import Carousel from "./../../components/Carousel";
 
 class Portfolio extends Component {
     render() {
@@ -13,9 +13,8 @@ class Portfolio extends Component {
                         <h5 className="portSubTitle">Developing And Nurturing Interface</h5>
                         <div className="portDescription">Full Stack MERN application that provides children with autism a source of entertainment and learning. Inspired by team mate’s autistic brother who is soothed by various tasked on a phone.</div>
                         <div className="imgContainer">
-                            {/* <img className="projectImage" src={process.env.PUBLIC_URL + "/images/dani_ss.png"} alt="portfolio_image" /> */}
                             <div className="carouselContainer">
-                                <Carousel></Carousel>
+                                <Carousel itemsList="itemsDani" size="4"></Carousel>
                             </div>
 
                         </div>
@@ -36,7 +35,9 @@ class Portfolio extends Component {
                         <h5 className="portSubTitle">A movie recommendation finder</h5>
                         <div className="portDescription">Full Stack application that collects information through user surveys and favorited movies, stores and analyzes it in a MySQL database, and gives the user movie recommendations.</div>
                         <div className="imgContainer">
-                            <img className="projectImage" src={process.env.PUBLIC_URL + "/images/wat2watch_ss.jpg"} alt="portfolio_image" />
+                            <div className="carouselContainer">
+                                <Carousel itemsList="itemsMovies" size="2"></Carousel>
+                            </div>
                         </div>
                         <div className="buttonContainer">
                             <a href="https://github.com/saronnhong/movie_gen" target="_blank" rel="noopener noreferrer">
@@ -66,10 +67,8 @@ class Portfolio extends Component {
                         </div>
                     </div>
                 </div>
-
             </div>
         )
     }
-
 }
 export default Portfolio;
