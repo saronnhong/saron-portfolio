@@ -1,13 +1,7 @@
 import React, { useState } from 'react';
-import {
-    Carousel,
-    CarouselItem,
-    CarouselControl,
-    CarouselIndicators,
-    CarouselCaption
-} from 'reactstrap';
+import { Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselCaption } from 'reactstrap';
 
-const items = [
+const itemsDani = [
     {
         src: process.env.PUBLIC_URL + '/images/dani_ss.png',
         altText: 'Slide 1',
@@ -29,6 +23,18 @@ const items = [
         caption: 'Spelling Game'
     }
 ];
+const itemsMovies = [
+    {
+        src: process.env.PUBLIC_URL + '/images/wat2watch_survey-min.jpg',
+        altText: 'Slide 1',
+        caption: 'Survey'
+    },
+    {
+        src: process.env.PUBLIC_URL + '/images/wat2watch_ss.jpg',
+        altText: 'Slide 2',
+        caption: 'Movie Reccomendations'
+    }
+];
 
 const Example = (props) => {
     const [activeIndex, setActiveIndex] = useState(0);
@@ -36,13 +42,13 @@ const Example = (props) => {
 
     const next = () => {
         if (animating) return;
-        const nextIndex = activeIndex === items.length - 1 ? 0 : activeIndex + 1;
+        const nextIndex = activeIndex === props.size - 1 ? 0 : activeIndex + 1;
         setActiveIndex(nextIndex);
     }
 
     const previous = () => {
         if (animating) return;
-        const nextIndex = activeIndex === 0 ? items.length - 1 : activeIndex - 1;
+        const nextIndex = activeIndex === 0 ? props.size - 1 : activeIndex - 1;
         setActiveIndex(nextIndex);
     }
 
@@ -51,7 +57,7 @@ const Example = (props) => {
         setActiveIndex(newIndex);
     }
 
-    const slides = items.map((item) => {
+    const slides1 = itemsDani.map((item) => {
         return (
             <CarouselItem
                 onExiting={() => setAnimating(true)}
@@ -59,7 +65,18 @@ const Example = (props) => {
                 key={item.src}
             >
                 <img src={item.src} alt={item.altText} />
-                {/* <CarouselCaption captionText={item.caption} captionHeader={item.caption} /> */}
+                <CarouselCaption captionHeader={item.caption} />
+            </CarouselItem>
+        );
+    });
+    const slides2 = itemsMovies.map((item) => {
+        return (
+            <CarouselItem
+                onExiting={() => setAnimating(true)}
+                onExited={() => setAnimating(false)}
+                key={item.src}
+            >
+                <img src={item.src} alt={item.altText} />
                 <CarouselCaption captionHeader={item.caption} />
             </CarouselItem>
         );
@@ -71,8 +88,8 @@ const Example = (props) => {
             next={next}
             previous={previous}
         >
-            <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
-            {slides}
+            <CarouselIndicators items={props.itemsList === "itemsDani" ? itemsDani : itemsMovies} activeIndex={activeIndex} onClickHandler={goToIndex} />
+            {props.itemsList === "itemsDani" ? slides1 : slides2}
             <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
             <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
         </Carousel>
