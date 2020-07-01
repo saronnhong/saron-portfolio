@@ -1,6 +1,29 @@
 import React, { useState } from 'react';
 import { Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselCaption } from 'reactstrap';
 
+
+const itemsJobTrak = [
+    {
+        src: process.env.PUBLIC_URL + '/images/jobtrak_applications-min.jpg',
+        altText: 'Slide 1',
+        caption: 'Keep Track of All Job Applications'
+    },
+    {
+        src: process.env.PUBLIC_URL + '/images/jobtrak_addjobs-min.jpg',
+        altText: 'Slide 2',
+        caption: 'Add New Jobs to a MongoDB Database'
+    },
+    {
+        src: process.env.PUBLIC_URL + '/images/jobtrak_editjobs-min.jpg',
+        altText: 'Slide 3',
+        caption: 'Edit & Update Job Applications'
+    },
+    {
+        src: process.env.PUBLIC_URL + '/images/jobtrak_login-min.jpg',
+        altText: 'Slide 4',
+        caption: 'Secure Login'
+    }
+];
 const itemsDani = [
     {
         src: process.env.PUBLIC_URL + '/images/dani_ss.png',
@@ -57,7 +80,19 @@ const Example = (props) => {
         setActiveIndex(newIndex);
     }
 
-    const slides1 = itemsDani.map((item) => {
+    const jobTrak = itemsJobTrak.map((item) => {
+        return (
+            <CarouselItem
+                onExiting={() => setAnimating(true)}
+                onExited={() => setAnimating(false)}
+                key={item.src}
+            >
+                <img src={item.src} alt={item.altText} />
+                <CarouselCaption className="text-warning" captionHeader={item.caption} />
+            </CarouselItem>
+        );
+    });
+    const Dani = itemsDani.map((item) => {
         return (
             <CarouselItem
                 onExiting={() => setAnimating(true)}
@@ -69,7 +104,7 @@ const Example = (props) => {
             </CarouselItem>
         );
     });
-    const slides2 = itemsMovies.map((item) => {
+    const Movies = itemsMovies.map((item) => {
         return (
             <CarouselItem
                 onExiting={() => setAnimating(true)}
@@ -82,14 +117,16 @@ const Example = (props) => {
         );
     });
 
+    
+
     return (
         <Carousel
             activeIndex={activeIndex}
             next={next}
             previous={previous}
         >
-            <CarouselIndicators items={props.itemsList === "itemsDani" ? itemsDani : itemsMovies} activeIndex={activeIndex} onClickHandler={goToIndex} />
-            {props.itemsList === "itemsDani" ? slides1 : slides2}
+            <CarouselIndicators items={props.itemsList === "itemsDani" ? itemsDani : (props.itemsList === "itemsMovies" ? itemsMovies : itemsJobTrak)} activeIndex={activeIndex} onClickHandler={goToIndex} />
+            {props.itemsList === "itemsDani" ? Dani : (props.itemsList === "itemsMovies" ? Movies : jobTrak)}
             <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
             <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
         </Carousel>

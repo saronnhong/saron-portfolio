@@ -6,9 +6,32 @@ class Portfolio extends Component {
     render() {
         return (
             <div className="portfolio">
-                <div className="project1">
+                <div className="project0">
                     <div className="container">
                         <h1 className="portHeader">Latest Projects.</h1>
+                        <h1 className="portTitle">JobTrak</h1>
+                        <h5 className="portSubTitle">Keep Track of Your Job Applications</h5>
+                        <div className="portDescription">Full Stack MERN application used to keep track of all your job applications. Add, edit, update, and delete job applications from a MongoDB database.</div>
+                        <div className="imgContainer">
+                            <div className="carouselContainer">
+                                <Carousel itemsList="itemsJobTrak" size="4"></Carousel>
+                            </div>
+
+                        </div>
+                        <div className="buttonContainer">
+                            <a href="https://github.com/saronnhong/jobtrak" target="_blank" rel="noopener noreferrer">
+                                <button type="button" className="btn btn-outline-dark portButton">Github</button>
+                            </a>
+                            <a href="https://jobtrakr.herokuapp.com" target="_blank" rel="noopener noreferrer">
+                                <button type="button" className="btn btn-outline-dark portButton">Live</button>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div className="project1">
+                    <div className="container">
+                        {/* <h1 className="portHeader">Latest Projects.</h1> */}
                         <h1 className="portTitle">DANI</h1>
                         <h5 className="portSubTitle">Developing And Nurturing Interface</h5>
                         <div className="portDescription">Full Stack MERN application that provides children with autism a source of entertainment and learning. Inspired by team mate’s autistic brother who is soothed by various tasked on a phone.</div>

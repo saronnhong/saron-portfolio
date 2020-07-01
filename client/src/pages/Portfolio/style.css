@@ -201,9 +201,15 @@
         height: 100vh;
     }
   } */
-
-  .project1{
+  .project0{
+    position: relative;
+    width: 100vw;
+    /* height: 120vh; */
+    padding: 50px 0;
     background-color: #FFAD61;
+}
+  .project1{
+    background-color: #4fc3f7 ;
     position: relative;
     width: 100vw;
     /* height: 120vh; */
