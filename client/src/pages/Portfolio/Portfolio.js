@@ -22,7 +22,7 @@ class Portfolio extends Component {
                             <a href="https://github.com/saronnhong/jobtrak" target="_blank" rel="noopener noreferrer">
                                 <button type="button" className="btn btn-outline-dark portButton">Github</button>
                             </a>
-                            <a href="https://jobtrakr.herokuapp.com" target="_blank" rel="noopener noreferrer">
+                            <a href="https://jobtracker.saronnhong.coom" target="_blank" rel="noopener noreferrer">
                                 <button type="button" className="btn btn-outline-dark portButton">Live</button>
                             </a>
                         </div>
