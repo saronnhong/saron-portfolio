@@ -1,7 +1,28 @@
 import React, { useState } from 'react';
 import { Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselCaption } from 'reactstrap';
 
-
+const itemsSpeechBoard = [
+    {
+        src: process.env.PUBLIC_URL + '/images/speechboard-ss/speechboard01.jpg',
+        altText: 'Slide 1',
+        caption: 'Child friendly designs'
+    },
+    {
+        src: process.env.PUBLIC_URL + '/images/speechboard-ss/speechboard02.jpg',
+        altText: 'Slide 2',
+        caption: 'Easy access to core words'
+    },
+    {
+        src: process.env.PUBLIC_URL + '/images/speechboard-ss/speechboard03.jpg',
+        altText: 'Slide 3',
+        caption: 'Create your own words'
+    },
+    {
+        src: process.env.PUBLIC_URL + '/images/speechboard-ss/speechboard04.jpg',
+        altText: 'Slide 4',
+        caption: 'Search and Settings options'
+    }
+];
 const itemsJobTrak = [
     {
         src: process.env.PUBLIC_URL + '/images/jobtrak_applications-min.jpg',
@@ -80,6 +101,19 @@ const Example = (props) => {
         setActiveIndex(newIndex);
     }
 
+    const speechBoard = itemsSpeechBoard.map((item) => {
+        return (
+            <CarouselItem
+                onExiting={() => setAnimating(true)}
+                onExited={() => setAnimating(false)}
+                key={item.src}
+            >
+                <img src={item.src} alt={item.altText} />
+                <CarouselCaption className="text-dark" captionHeader={item.caption} />
+            </CarouselItem>
+        );
+    });
+
     const jobTrak = itemsJobTrak.map((item) => {
         return (
             <CarouselItem
@@ -126,6 +160,7 @@ const Example = (props) => {
             previous={previous}
         >
             <CarouselIndicators items={props.itemsList === "itemsDani" ? itemsDani : (props.itemsList === "itemsMovies" ? itemsMovies : itemsJobTrak)} activeIndex={activeIndex} onClickHandler={goToIndex} />
+            {props.itemsList === "itemsSpeechBoard" ? speechBoard : (props.itemsList === "itemsMovies" ? Movies : jobTrak)}
             {props.itemsList === "itemsDani" ? Dani : (props.itemsList === "itemsMovies" ? Movies : jobTrak)}
             <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
             <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
