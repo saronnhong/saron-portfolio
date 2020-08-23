@@ -6,9 +6,32 @@ class Portfolio extends Component {
     render() {
         return (
             <div className="portfolio">
-                <div className="project0">
+                <div className="project-speechboard">
                     <div className="container">
                         <h1 className="portHeader">Latest Projects.</h1>
+                        <h1 className="portTitle">Speech Board</h1>
+                        <h5 className="portSubTitle">Speaking made easier.</h5>
+                        <div className="portDescription">Easy to use communication app for people who cannot speak or need help being understood..</div>
+                        <div className="imgContainer">
+                            <div className="carouselContainer" >
+                                <Carousel itemsList="itemsSpeechBoard" size="4"></Carousel>
+                            </div>
+
+                        </div>
+                        <div className="buttonContainer">
+                            <a href="https://github.com/saronnhong/dani-2.0" target="_blank" rel="noopener noreferrer">
+                                <button type="button" className="btn btn-outline-dark portButton">Github</button>
+                            </a>
+                            {/* <a href="https://jobtracker.saronnhong.coom" target="_blank" rel="noopener noreferrer">
+                                <button type="button" className="btn btn-outline-dark portButton">Live</button>
+                            </a> */}
+                        </div>
+
+                    </div>
+                </div>
+                <div className="project0">
+                    <div className="container">
+                        {/* <h1 className="portHeader">Latest Projects.</h1> */}
                         <h1 className="portTitle">JobTrak</h1>
                         <h5 className="portSubTitle">Keep Track of Your Job Applications</h5>
                         <div className="portDescription">Full Stack MERN application used to keep track of all your job applications. Add, edit, update, and delete job applications from a MongoDB database.</div>
@@ -72,7 +95,7 @@ class Portfolio extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="project3">
+                {/* <div className="project3">
                     <div className="container">
                         <h1 className="portTitle">ChowFeed</h1>
                         <h5 className="portSubTitle">A restaurant and recipe finder</h5>
@@ -89,7 +112,7 @@ class Portfolio extends Component {
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         )
     }
