@@ -160,7 +160,7 @@ const Example = (props) => {
             previous={previous}
         >
             <CarouselIndicators items={props.itemsList === "itemsDani" ? itemsDani : (props.itemsList === "itemsMovies" ? itemsMovies : itemsJobTrak)} activeIndex={activeIndex} onClickHandler={goToIndex} />
-            {props.itemsList === "itemsSpeechBoard" ? speechBoard : (props.itemsList === "itemsMovies" ? Movies : jobTrak)}
+            {props.itemsList === "itemsSpeechBoard" ? speechBoard : null}
             {props.itemsList === "itemsDani" ? Dani : (props.itemsList === "itemsMovies" ? Movies : jobTrak)}
             <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
             <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
