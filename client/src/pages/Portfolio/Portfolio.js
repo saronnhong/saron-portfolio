@@ -12,9 +12,9 @@ class Portfolio extends Component {
                         <h1 className="portTitle">Speech Board</h1>
                         <h5 className="portSubTitle">Speaking made easier.</h5>
                         <div className="portDescription">Easy to use communication app for people who cannot speak or need help being understood..</div>
-                        <div className="imgContainer">
-                            <div className="carouselContainer" >
-                                <Carousel itemsList="itemsSpeechBoard" size="4"></Carousel>
+                        <div  className="imgContainer">
+                            <div className="carouselContainerSpeechBoard" >
+                                <Carousel itemsList="itemsSpeechBoard" size="6"></Carousel>
                             </div>
 
                         </div>

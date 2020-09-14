@@ -1,26 +1,42 @@
 import React, { useState } from 'react';
 import { Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselCaption } from 'reactstrap';
+import "./style.css";
 
 const itemsSpeechBoard = [
     {
-        src: process.env.PUBLIC_URL + '/images/speechboard-ss/speechboard01.jpg',
-        altText: 'Slide 1',
-        caption: 'Child friendly designs'
+        src: process.env.PUBLIC_URL + '/images/speechboard-ss/IMG_7866-min.PNG',
+        altText: 'Easy access to core words',
+        caption: 'Intuitive Categories'
     },
     {
-        src: process.env.PUBLIC_URL + '/images/speechboard-ss/speechboard02.jpg',
-        altText: 'Slide 2',
-        caption: 'Easy access to core words'
+        src: process.env.PUBLIC_URL + '/images/speechboard-ss/IMG_7867-min.PNG',
+        altText: 'Create your own sentences',
+        caption: 'Create your own sentences'
     },
     {
-        src: process.env.PUBLIC_URL + '/images/speechboard-ss/speechboard03.jpg',
-        altText: 'Slide 3',
+        src: process.env.PUBLIC_URL + '/images/speechboard-ss/IMG_7868-min.PNG',
+        altText: 'Create your own sentences',
+        caption: ''
+    },
+    // {
+    //     src: process.env.PUBLIC_URL + '/images/speechboard-ss/IMG_7869-min.PNG',
+    //     altText: 'Create your own words',
+    //     caption: 'Create your own words'
+    // },
+    {
+        src: process.env.PUBLIC_URL + '/images/speechboard-ss/IMG_7870-min.PNG',
+        altText: 'Create your own words',
         caption: 'Create your own words'
     },
     {
-        src: process.env.PUBLIC_URL + '/images/speechboard-ss/speechboard04.jpg',
-        altText: 'Slide 4',
-        caption: 'Search and Settings options'
+        src: process.env.PUBLIC_URL + '/images/speechboard-ss/IMG_7873-min.PNG',
+        altText: 'Ability to use the new words you created',
+        caption: 'Ability to use the new words you created'
+    },
+    {
+        src: process.env.PUBLIC_URL + '/images/speechboard-ss/IMG_7874-min.PNG',
+        altText: 'Search through entire word database',
+        caption: 'Search through entire word database'
     }
 ];
 const itemsJobTrak = [
@@ -109,7 +125,7 @@ const Example = (props) => {
                 key={item.src}
             >
                 <img src={item.src} alt={item.altText} />
-                <CarouselCaption className="text-dark" captionHeader={item.caption} />
+                <CarouselCaption captionHeader={item.caption} />
             </CarouselItem>
         );
     });
@@ -160,8 +176,7 @@ const Example = (props) => {
             previous={previous}
         >
             <CarouselIndicators items={props.itemsList === "itemsDani" ? itemsDani : (props.itemsList === "itemsMovies" ? itemsMovies : itemsJobTrak)} activeIndex={activeIndex} onClickHandler={goToIndex} />
-            {props.itemsList === "itemsSpeechBoard" ? speechBoard : null}
-            {props.itemsList === "itemsDani" ? Dani : (props.itemsList === "itemsMovies" ? Movies : jobTrak)}
+            {props.itemsList === "itemsDani" ? Dani : (props.itemsList === "itemsMovies" ? Movies : (props.itemsList === "itemsSpeechBoard" ? speechBoard : jobTrak))}
             <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
             <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
         </Carousel>

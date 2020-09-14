@@ -1,222 +1,23 @@
-/* .portfolio{
-    background-color: #FFAD61;
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    background-image: url("/images/flamingo.svg");
-    background-repeat: no-repeat;
-    background-position-x: 67vw;
-    background-position-y: bottom;
-    background-size: 45vw;
-}
-.portContainer{
-    margin-top: 12vh;
-}
-.portHeader{
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 140%;
-    color: #EEEEEE;
-}
-.portText1{
-    margin-top: 10vh;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-}
-.portText2{
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 160%;
-    color: rgb(20,20,20, .8);
-}
 
-.projectImage{
-    margin: 15px 0;
-    width: 100%;
-    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, .25);
-}
-.projectImage_modal{
-    margin: 15px 0;
-    width: 70%;
-    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, .25);
-}
-.projectImageContainer, .projectImageTitle{
-    width: 100%;
-    text-align: center;
-}
-.fa-angle-right, .fa-angle-left{
-    color: rgb(20,20,20, .85);
-    margin: 0 3px ;
-}
-.fa-angle-right:hover, .fa-angle-left:hover, .projectControl:hover, #visitLink:hover{
-    color: #EEEEEE;
-}
-
-.projectControl{
-    font-weight: 600;
-    color: rgb(20,20,20, .8);
-    font-family: 'Poppins', sans-serif;
-    cursor: pointer;
-    margin-top: 15px;
-   
-
-}
-.projectPrev{
-    text-align: left;
-}
-.projectNext{
-    text-align: right;
-    
-}
-.projectCenter{
-    text-align: center;
-}
-#visitLink{
-    color: rgb(20,20,20, .8);
-}
-
-.modalBold{
-    color: rgb(255,0,0, .9);
-    font-weight: 600;
-}
-@media only screen and (max-width: 349px) {
-    .portfolio{
-        height: 120vh;
-        background-image: none;
-        background-repeat: repeat;
-    }
-    .portContainer{
-        margin-top: 60px;
-    }
-    .portHeader{
-        font-size: 32px;
-    }
-    .portText1{
-        margin-top: 25px;
-    }
-    .projectControl{
-        font-size: 16px;
-        
-    }
-    .projectCenter{
-        text-align: center;
-        position: relative;
-        bottom: 38px;
-    }
-    .projectNext{
-        position: relative;
-        bottom: 76px;
-    }
-    .projectImage_modal{
-        width: 100%;
-    }
-    .modal-body{
-        padding: 0;
-    }
-    
-  }
-  @media only screen and (min-width: 350px) and (max-width: 667px) {
-    .portContainer{
-        margin-top: 100px;
-    }
-    .portHeader{
-        font-size: 36px;
-    }
-    .portText1{
-        margin-top: 25px;
-    }
-    .projectControl{
-        font-size: 16px;
-        
-    }
-    .projectCenter{
-        text-align: center;
-        position: relative;
-        bottom: 38px;
-    }
-    .projectNext{
-        position: relative;
-        bottom: 76px;
-    }
-    .projectImage_modal{
-        width: 90%;
-    }
-    .portfolio{
-        background-image: none;
-        background-repeat: repeat;
-        height: 120vmax;
-    }
-  }
-  
-  @media only screen and (min-width: 668px)and (max-width: 767px) {
-    .portContainer{
-        margin-top: 100px;
-    }
-    .portHeader{
-        font-size: 32px;
-    }
-    .portText1{
-        margin-top: 25px;
-    }
-    .projectControl{
-        font-size: 16px;
-        
-    }
-    .projectCenter{
-        text-align: center;
-        position: relative;
-        bottom: 40px;
-    }
-    .projectNext{
-        position: relative;
-        bottom: 80px;
-    }
-    .projectImage_modal{
-        width: 90%;
-    } 
-    .portfolio{
-        background-image: none;
-        background-repeat: repeat;
-        height: 110vmax;
-    }
-  }
-  @media only screen and (min-width: 768px)and (max-width: 1000px) {
-    .portfolio{
-        height: 110vmax;
-    }
-    .portContainer{
-        margin-top: 20vh;
-    }
-    .portHeader{
-        font-size: 32px;
-    }
-  }
-  @media only screen and (min-width: 1001px)and (max-width: 1200px) {
-    .portfolio{
-        height: 100vh;
-    }
-  } */
   .project-speechboard{
     position: relative;
     width: 100vw;
     /* height: 120vh; */
     padding: 50px 0;
-    background-color: rgb(127, 207, 111);
+    /* background-color: rgb(127, 207, 111); */
+    background-color: rgb(237, 202, 107);
 }
 .project0{
     position: relative;
     width: 100vw;
     /* height: 120vh; */
     padding: 50px 0;
-    background-color: #FFAD61;
+    /* background-color: #FFAD61; */
+    background-color: #4fc3f7 ;
 }
   .project1{
-    background-color: #4fc3f7 ;
+    /* background-color: #4fc3f7 ; */
+    background-color: rgb(127, 207, 111);
     position: relative;
     width: 100vw;
     /* height: 120vh; */
@@ -293,7 +94,11 @@
 .carouselContainer{
     margin: 0 auto;
     width: 80%;
-    
+}
+.carouselContainerSpeechBoard{
+    margin: 0 auto;
+    /* height: 300px; */
+    width: 300px;
 }
 .carousel-item > img { 
     width: 100%; 
