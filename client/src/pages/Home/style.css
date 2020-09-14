@@ -3,7 +3,8 @@
   position: absolute;
   width: 100vw;
   height: 100vh;
-  background-image: url("/images/llama_crio_bw_opacity80.svg");
+  /* background-image: url("/images/llama_crio_bw_opacity80.svg"); */
+  background-image: url("/images/wildlife.svg");
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: bottom;
