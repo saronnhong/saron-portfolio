@@ -77,7 +77,8 @@ a:link{
         margin-top: 0px !important;
     }
     .navbar{
-        background-color: whitesmoke;
+        background-color: transparent;
+
         
     }
     .navImg{
@@ -114,7 +115,7 @@ a:link{
         margin-top: 0px !important;
     }
     .navbar{
-        background-color: whitesmoke;
+        background-color: transparent;
         
     }
     .navImg{
