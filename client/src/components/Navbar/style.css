@@ -64,6 +64,7 @@ a:link{
     .navbar-nav{
         border-top: solid rgb(98,99,101, .7);
         border-width: 1px;
+        background-color: whitesmoke;
     }
     #navService, #navHome, #navAbout, #navContact{
         padding: 20px 25px;
@@ -107,6 +108,7 @@ a:link{
     .navbar-nav{
         border-top: solid rgb(98,99,101, .7);
         border-width: 1px;
+        background-color: whitesmoke;
     }
     #navService, #navHome, #navAbout, #navContact{
         padding: 20px 25px;
