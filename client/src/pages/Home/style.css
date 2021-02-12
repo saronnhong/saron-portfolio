@@ -25,14 +25,19 @@ color: #EEEEEE;
 font-family: 'Poppins', sans-serif;
 font-style: normal;
 font-weight: normal;
-font-size: 18px;
+font-size: 17px;
 line-height: 150%;
-color: rgb(20,20,20, .8);
+color: rgb(20,20,20, .6);
 width: 55vw;
 
 }
 .homeBtn{
   margin: 15px 20px 25px 0;
+}
+.heartIcon{
+  font-size: .8em;
+  color: #FF6161;
+  padding: 0 3px;
 }
 
 
