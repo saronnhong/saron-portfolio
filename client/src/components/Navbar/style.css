@@ -46,10 +46,7 @@ a:link{
 .navbar{
     padding: 0px;
 }
-/* .bg-light{
-    background-color: #F7F8F9 !important;
-    background-color: cornflowerblue !important;
-} */
+
 .navbar-toggler{
     border: none;
 }
@@ -62,25 +59,20 @@ a:link{
         
     }
     .navbar-nav{
-        border-top: solid rgb(98,99,101, .7);
-        border-width: 1px;
-        background-color: whitesmoke;
+        border-top: solid rgb(98,99,101, .7) 1px;
+        background-color: #343a40;
     }
     #navService, #navHome, #navAbout, #navContact{
-        padding: 20px 25px;
+        padding: 18px 25px;
+        color: white;
+        border-bottom: black solid 1px;
+        margin: 0;
     }
-    /* .navbar-toggler{
-        margin-top: 10px;
-        margin-bottom: 0px;
-        padding-bottom: 12px;
-    } */
     .mt-2, .my-2 {
         margin-top: 0px !important;
     }
     .navbar{
         background-color: transparent;
-
-        
     }
     .navImg{
         margin-left: 10px;
@@ -90,9 +82,7 @@ a:link{
         margin-left: 50px;
         
     }
-    /* .navImg{
-        padding-top: 10px;
-    } */
+  
     .navLinkContactPage, .navLinkContactPage:hover{
         color: rgb(20,20,20, .9);
     }
@@ -101,17 +91,19 @@ a:link{
 @media only screen and (min-width: 360px) and (max-width: 600px) {
     
     .nav-link{
-        font-size: 16px;
+        font-size: 12px;
         width: 100vw;
         
     }
     .navbar-nav{
-        border-top: solid rgb(98,99,101, .7);
-        border-width: 1px;
-        background-color: whitesmoke;
+        border-top: solid rgb(98,99,101, .7) 1px;
+        background-color: #343a40;
     }
     #navService, #navHome, #navAbout, #navContact{
-        padding: 20px 25px;
+        padding: 18px 25px;
+        color: white;
+        border-bottom: black solid 1px;
+        margin: 0;
     }
     .mt-2, .my-2 {
         margin-top: 0px !important;
@@ -135,9 +127,6 @@ a:link{
   }
 
   @media only screen and (min-width: 601px)and (max-width: 1000px) {
-    /* .navBarLogo{
-        font-size: 24px;
-    } */
     .nav-link{
         font-size: 16px;
         /* width: 100vw; */
