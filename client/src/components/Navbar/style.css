@@ -54,23 +54,20 @@ a:link{
 @media only screen and (max-width: 359px) {
     
     .nav-link{
-        font-size: 16px;
-        text-transform: uppercase;
-        font-weight: 600;
+        font-size: 12px;
         width: 100vw;
         display: flex;
-        
     }
     .navbar-nav{
-        border-top: solid rgb(98,99,101, .7) 1px;
-        background-color: #343a40;
+        border-top: solid rgb(98,99,101, .7) 2px;
+        border-bottom: solid rgb(98,99,101, .7) 2px;
+        background-color: rgba(250,250,250, .95);
     }
     #navService, #navHome, #navAbout, #navContact{
-        color: white;
-        border-bottom: black solid 1px;
+        justify-content: flex-end;
+        color: #222;
         margin: 0;
-        padding: 25px 0;
-        justify-content: center;
+        padding-right: 20px;
     }
     .mt-2, .my-2 {
         margin-top: 0px !important;
@@ -88,10 +85,7 @@ a:link{
     }
   
     .navLinkContactPage, .navLinkContactPage:hover{
-        color: rgb(20,20,20, .9);
-        font-size: 16px;
-        text-transform: uppercase;
-        font-weight: 600;
+        font-size: 12px;
         width: 100vw;
         display: flex;
     }
@@ -100,23 +94,21 @@ a:link{
 @media only screen and (min-width: 360px) and (max-width: 600px) {
     
     .nav-link{
-        font-size: 18px;
-        text-transform: uppercase;
-        font-weight: 600;
+        font-size: 12px;
         width: 100vw;
         display: flex;
         
     }
     .navbar-nav{
-        border-top: solid rgb(98,99,101, .7) 1px;
-        background-color: #343a40;
+        border-top: solid rgb(98,99,101, .7) 2px;
+        border-bottom: solid rgb(98,99,101, .7) 2px;
+        background-color: rgba(250,250,250, .95);
     }
     #navService, #navHome, #navAbout, #navContact{
-        padding: 25px 0;
-        justify-content: center;
-        color: white;
-        border-bottom: black solid 1px;
+        justify-content: flex-end;
+        color: #222;
         margin: 0;
+        padding-right: 20px;
     }
     .mt-2, .my-2 {
         margin-top: 0px !important;
@@ -134,10 +126,7 @@ a:link{
         
     }
     .navLinkContactPage, .navLinkContactPage:hover{
-        color: rgb(20,20,20, .9);
-        font-size: 18px;
-        text-transform: uppercase;
-        font-weight: 600;
+        font-size: 12px;
         width: 100vw;
         display: flex;
     }
@@ -147,7 +136,6 @@ a:link{
   @media only screen and (min-width: 601px)and (max-width: 1000px) {
     .nav-link{
         font-size: 16px;
-        /* width: 100vw; */
         text-align: center;
         margin: 0px 3px;
         padding: 30px;
