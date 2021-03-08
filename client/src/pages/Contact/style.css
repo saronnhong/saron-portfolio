@@ -75,6 +75,9 @@
 .btn-dark, .btn-dark:hover{
     border-color: white;
 }
+.mouseHover:hover{
+    cursor: crosshair;
+}
 
 /* Sweep To Right */
 .hvr-sweep-to-right-sendbtn {
