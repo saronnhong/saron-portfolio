@@ -49,19 +49,19 @@ class Contact extends Component {
                             <h1 className="ourOffice">Contact</h1>
                             <div className="contactInfo">
                                 <p>
-                                    <i className="fa fa-phone" onClick={() => { navigator.clipboard.writeText("2095984517") }}></i>
+                                    <i className="fa fa-phone mouseHover" onClick={() => { navigator.clipboard.writeText("2095984517") }}></i>
                                     <a className="contactDetails" href="tel:209-598-4517"> 209.598.4517</a>
                                 </p>
                                 <p>
-                                    <i className="fa fa-envelope" onClick={() => { navigator.clipboard.writeText("saronnhong@gmail.com") }}></i>
+                                    <i className="fa fa-envelope mouseHover" onClick={() => { navigator.clipboard.writeText("saronnhong@gmail.com") }}></i>
                                     <a className="contactDetails" href="mailto:saronnhong@gmail.com"> saronnhong@gmail.com</a>
                                 </p>
                                 <p>
-                                    <i class="fab fa-linkedin" onClick={() => { navigator.clipboard.writeText("linkedin.com/in/saronnhong") }}></i>
+                                    <i class="fab fa-linkedin mouseHover" onClick={() => { navigator.clipboard.writeText("linkedin.com/in/saronnhong") }}></i>
                                     <a className="contactDetails" href="https://linkedin.com/in/saronnhong" target="_blank" rel="noopener noreferrer"> linkedin.com/in/saronnhong</a>
                                 </p>
                                 <p>
-                                    <i class="fab fa-github" onClick={() => { navigator.clipboard.writeText("github.com/saronnhong") }}></i>
+                                    <i class="fab fa-github mouseHover" onClick={() => { navigator.clipboard.writeText("github.com/saronnhong") }}></i>
                                     <a className="contactDetails" href="https://github.com/saronnhong" target="_blank" rel="noopener noreferrer"> github.com/saronnhong</a>
                                 </p>
                             </div>
