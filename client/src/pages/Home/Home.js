@@ -4,6 +4,7 @@ import "./style.css";
 import Pdf from './Saron-Nhong-Resume.pdf';
 // import Portfolio from '../Portfolio';
 // import Contact from '../Contact';
+const axios = require('axios');
 
 
 
@@ -28,6 +29,7 @@ class Home extends Component {
                             <a href={Pdf} target="_blank" rel="noopener noreferrer">
                                 <button type="button" className="btn btn-outline-dark homeBtn">View My Resume</button>
                             </a>
+                            
                         </div>
                     </div>
                 </div>
