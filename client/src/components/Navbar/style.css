@@ -1,11 +1,146 @@
-.nav-background {
-    opacity: .9;
+
+
+.active {
+    font-weight: 900;
 }
 
-/* Used to override default settings */
-nav {
-    /* background-color: rgb(255,255,255, 0); */
-    font-family: 'Space Mono';
-    color: white;
+.nav-link{
+    text-decoration: none !important;
+    color: rgb(20,20,20, .9);
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px 8px;
+    margin: 0px 5px;
+    border: transparent solid 3px;
+    -webkit-transition: color .2s, border .2s; 
+    transition: linear color .2s, ease-in border .2s;
+}
+.navLinkContactPage{
+    text-decoration: none !important;
+    color: rgb(238,238,238, .9);
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px 8px;
+    margin: 0px 5px;
+    border: transparent solid 3px;
+    -webkit-transition: color .2s, border .2s; 
+    transition: linear color .2s, ease-in border .2s;
+}
+.navLinkContactPage:hover{
+    border-bottom: rgb(238,238,238, .9) solid 2px;
+    color: rgb(237, 126, 107, .9) !important;
+    font-weight: 400;
 }
 
+.nav-link:hover{
+    border-bottom: rgb(238,238,238, .9) solid 2px;
+    color: rgb(238,238,238, .9) !important;
+    font-weight: 400;
+}
+a:link{
+    text-decoration: none;
+}
+
+.navbar{
+    padding: 0px;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+@media only screen and (max-width: 359px) {
+    
+    .nav-link{
+        font-size: 14px;
+        width: 100vw;
+        display: flex;
+    }
+    .navbar-nav{
+        border-top: solid rgb(98,99,101, .7) 1px;
+        border-bottom: solid rgb(98,99,101, .7) 1px;
+        background-color: rgba(250,250,250, .95);
+    }
+    #navService, #navHome, #navAbout, #navContact{
+        justify-content: center;
+        color: #222;
+        margin: 0;
+        padding-right: 20px;
+    }
+    .mt-2, .my-2 {
+        margin-top: 0px !important;
+    }
+    .navbar{
+        background-color: transparent;
+    }
+    .navImg{
+        margin-left: 10px;
+        padding-top: 10px;
+    }
+    .navbar-toggler-icon{
+        margin-left: 50px;
+        
+    }
+  
+    .navLinkContactPage, .navLinkContactPage:hover{
+        font-size: 14px;
+        width: 100vw;
+        display: flex;
+    }
+    
+  }
+@media only screen and (min-width: 360px) and (max-width: 600px) {
+    
+    .nav-link{
+        font-size: 14px;
+        width: 100vw;
+        display: flex;
+        
+    }
+    .navbar-nav{
+        border-top: solid rgb(98,99,101, .7) 1px;
+        border-bottom: solid rgb(98,99,101, .7) 1px;
+        background-color: rgba(250,250,250, .95);
+    }
+    #navService, #navHome, #navAbout, #navContact{
+        justify-content: center;
+        color: #222;
+        margin: 0;
+        padding-right: 20px;
+    }
+    .mt-2, .my-2 {
+        margin-top: 0px !important;
+    }
+    .navbar{
+        background-color: transparent;
+        
+    }
+    .navImg{
+        margin-left: 10px;
+        padding-top: 10px;
+    }
+    .navbar-toggler-icon{
+        margin-left: 120px;
+        
+    }
+    .navLinkContactPage, .navLinkContactPage:hover{
+        font-size: 14px;
+        width: 100vw;
+        display: flex;
+    }
+    
+  }
+
+  @media only screen and (min-width: 601px)and (max-width: 1000px) {
+    .nav-link{
+        font-size: 16px;
+        text-align: center;
+        margin: 0px 3px;
+        padding: 30px;
+    }
+    .mb-2, .my-2 {
+        margin-bottom: 0px!important;
+    }
+  }

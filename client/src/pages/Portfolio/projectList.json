@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "project": "DANI (Developing And Nurturing Interface)",
+    "deployLink": "https://dani-ap.herokuapp.com",
+    "imageLocation": "/images/dani_ss.png",
+    "githubLink": "https://github.com/saronnhong/dani",
+    "shortoverview": "Full Stack MERN application that provides children with autism a source of entertainment and learning.",
+    "overview":"Full Stack MERN application that provides children with autism a source of entertainment and learning. Inspired by team mate’s autistic brother who is soothed by various tasked on a phone.Designed front end layout and created reusable Menu and Sound components that allowed for easy construction of Animal, Relaxation, and Nature Sounds sections. Created a simplified Spelling game that gradually grows more difficult as the user progress.",
+    "tech": "JS, React, React Canvas Draw, React Player, Node/Express Server, MongoDB/Mongoose, Robo 3T, Reddit API, Photo Sphere Viewer. (Test Account => Email: test@test.com, Password: test123)"
+  },
+  {
+    "id": 2,
+    "project": "Wat2Watch",
+    "deployLink": "https://wat2watch-p2.herokuapp.com/",
+    "imageLocation": "/images/wat2watch_ss.jpg",
+    "githubLink": "https://github.com/saronnhong/movie_gen",
+    "shortoverview": "Application that finds new movie recommendations based on user’s likes and interests.",
+    "overview":"Application that finds new movie recommendations based on user’s likes and interests. Full Stack application that collects information through user surveys and favorited movies, stores and analyzes it in a MySQL database, and gives the user movie recommendations. Used Unirest to create requests to The Movie Database API on the backend to populate our search queries and keep API keys secure. Manipulated data stored in MySQL database to form algorithm for recommended movies for user.",
+    "tech": "JS, NodeJS, MySQL, The Movie Database API, Handlebars, Morgan, Passport, Sequelize, Unirest"
+  },
+  {
+    "id": 3,
+    "project": "Clicky: Memory Game",
+    "deployLink": "https://saronnhong.github.io/clicky-game/",
+    "imageLocation": "/images/clicky_ss.jpg",
+    "githubLink": "https://github.com/saronnhong/clicky-game",
+    "shortoverview": "Clicky Game is a memory game built with React. The goal of the game is to click on as many different images as possible without selecting the same images twice.",
+    "overview":"Clicky Game is a memory game built with React. The goal of the game is to click on as many different images as possible without selecting the same images twice. The application is component based and is able to keep track of events with State and rerenders the components dynamically without refreshing the entire page",
+    "tech": "React, JS, NodeJS, Bootstrap, Github Pages"
+  },
+  {
+    "id": 4,
+    "project": "BAmazon Storefront",
+    "deployLink": "N/A",
+    "imageLocation": "/images/bamazonManager_ss-min.jpg",
+    "githubLink": "https://github.com/saronnhong/bamazon",
+    "shortoverview": "A Node app that acts as a mock store front. The Customer app takes orders from the customers and depletes the stock from inventory. ",
+    "overview":"A Node app that acts as a mock store front. The Customer app takes orders from the customers and depletes the stock from inventory. The Manger app is able to view the products that are available for sale, check items that are low in inventory, add to the inventory, and add new products to the store front. The Supervisor app is able to keep track of the sales and profit for each department and be able to add new departments.",
+    "tech": "JS, NodeJS, Inquirer, MySQL"
+  },
+  {
+    "id": 5,
+    "project": "LIRI Node App",
+    "deployLink": "N/A",
+    "imageLocation": "/images/Spotify-This-Song-min.jpg",
+    "githubLink": "https://github.com/saronnhong/liri-node-app",
+    "shortoverview": "LIRI is a command line Node application that takes in parameters, communicate with other APIs (Spotify, Bandsintown, and OMDB), and gives you back data.",
+    "overview":"LIRI is a Language Interpretation and Recognition Interface. LIRI is a command line Node application that takes in parameters, communicate with other APIs (Spotify, Bandsintown, and OMDB), and gives you back data.",
+    "tech": "JS, NodeJS, Node-Spotify API, OMDB API, Bandsintown API, Axios, MomentJS"
+  },
+  {
+    "id": 6,
+    "project": "ChowFeed",
+    "deployLink": "https://saronnhong.github.io/ChowFeed/",
+    "imageLocation": "/images/chowfeed-min.jpg",
+    "githubLink": "https://github.com/saronnhong/ChowFeed",
+    "shortoverview": "Front end web application that provides the user a way to find certain dishes at restaurants and a recipe for the dish at the same time.",
+    "overview":"Front end web application that provides the user a way to find certain dishes at restaurants and a recipe for the dish at the same time. Used the Food2Fork API and the Yelp Fusion API to query search results for recipes and local restaurants. Stored search results in Local Storage in order to use pagination without separate AJAX requests. Designed the look and layout of the application using Bootstrap.",
+    "tech": "JS, jQuery, Bootstrap, Food2Fork API, Yelp Fusion API, AJAX"
+  }
+] 
+

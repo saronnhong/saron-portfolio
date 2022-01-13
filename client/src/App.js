@@ -1,24 +1,28 @@
 
-import React, { Component } from "react";
-
+import React from "react";
 import "./App.css";
-
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-import Contact from './pages/Contact';
 import About from './pages/About';
-// import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
+import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
+function App() {
+  return (
+    <Router>
+      <div className="App animated fadeInDownBig">
         <Navbar />
-        <Home />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/contact" component={Contact} />
+          <Route component={Home} />
+        </Switch>
       </div>
-    );
-  }
+    </Router>
+  );
 }
 
 export default App;

@@ -1,0 +1,146 @@
+
+  .project-speechboard{
+    position: relative;
+    width: 100vw;
+    /* height: 120vh; */
+    padding: 50px 0;
+    /* background-color: rgb(127, 207, 111); */
+    background-color: rgb(237, 202, 107);
+}
+.project0{
+    position: relative;
+    width: 100vw;
+    /* height: 120vh; */
+    padding: 50px 0;
+    /* background-color: #FFAD61; */
+    background-color: #4fc3f7 ;
+}
+  .project1{
+    /* background-color: #4fc3f7 ; */
+    background-color: rgb(127, 207, 111);
+    position: relative;
+    width: 100vw;
+    /* height: 120vh; */
+    padding: 50px 0;
+    
+  }
+  .project2{
+    background-color: rgb(237, 202, 107);
+    position: relative;
+    width: 100vw;
+    /* height: 100vh; */
+    /* margin-top: 120vh; */
+    padding: 50px 0;
+  }
+  .project3{
+    background-color: rgb(127, 207, 111);
+    position: relative;
+    width: 100vw;
+    /* height: 100vh; */
+    /* margin-top: 220vh; */
+    padding: 50px 0;
+  }
+.portHeader{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 140%;
+    /* color: #EEEEEE; */
+    color: rgb(214, 41, 45, .8);
+    margin-top: 50px;
+}
+.portTitle{
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+    text-align: center;
+    /* color: rgb(20,20,20, .8); */
+    color: #EEEEEE;
+}
+.portSubTitle{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgb(20,20,20, .7);
+    text-align: center;
+}
+.portDescription{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 17px;
+    width: 60%;
+    color: rgb(20,20,20, .6);
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.projectImage{
+    width: 70%;
+}
+.imgContainer{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.buttonContainer{
+    width: 100%;
+    text-align: center;
+}
+.portButton{
+    margin: 20px 5px;
+    width: 100px;
+}
+.carouselContainer{
+    margin: 0 auto;
+    width: 80%;
+}
+.carouselContainerSpeechBoard{
+    margin: 0 auto;
+    /* height: 300px; */
+    width: 300px;
+}
+.carousel-item > img { 
+    width: 100%; 
+  }
+
+@media only screen and (max-width: 750px) {
+    .portHeader{
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    .portTitle{
+        margin-top: 20px;
+        font-size: 48px;
+        text-align: left;
+    }
+    .portSubTitle{
+        font-size: 18px;
+        text-align: left;
+    }
+    .portDescription{
+        font-size: 14px;
+        width: 100%;
+        margin-top: 20px;
+        text-align: left;
+    }
+    .projectImage{
+        width: 90%;
+    }
+    .imgContainer{
+        text-align: left;
+    }
+  }
+@media only screen and (min-width: 350px) and (max-width: 667px) {
+    
+  }
+  
+@media only screen and (min-width: 668px)and (max-width: 767px) {
+    
+  }
+@media only screen and (min-width: 768px)and (max-width: 1000px) {
+   
+  }
+@media only screen and (min-width: 1001px)and (max-width: 1200px) {
+    
+}
